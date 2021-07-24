@@ -1,0 +1,63 @@
+<template id="s_homepage_products" name="homepage products">
+  <section class="s_features pt32 pb32 o_colored_level" data-snippet="s_content_products" data-name="content products">
+        <div class="pa-site-width">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading o_default_snippet_text fontsize2 centered-content">Products That We Offers</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1 centered-content">It is With High Skill and almost attention to detail, we deliver a wide varity of Products in every segment we cater to. We are trusted by some of the biggest Barands in the apparel world</p>
+            </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-button o_default_snippet_text">Full Gallery</a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/Womens-Wear-Tablet-View.png">
+                  <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Womens-Wear-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/Womens-Wear-Mobile-View.png">
+                      <img class="content-product-image" src="/theme_Advance/static/src/images/Womens-Wear-Web-View.png" alt="Womens Wear Product" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+              <h3 class="fontsize3"><u>Womens Wear</u></h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/Kids-wear-Tablet-View.png">
+                  <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Kids-Wear-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/Kids-Wear-Mobile-View.png">
+                      <img class="content-product-image" src="/theme_Advance/static/src/images/Kids-Wear-Web-View.png" alt="Kids Wear Product" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+              <h3 class="primary-heading">
+                <br/>
+              </h3>
+              <h3 class="fontsize3"><u>Kids Wear</u></h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Tablet-View.png">
+                  <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Mens-Wear-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/Mens-Wear-Mobile-View.png">
+                      <img class="content-product-image" src="/theme_Advancen/static/src/images/Mens-Wear-Web-View.png" alt="Mens Wear Product" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+              <h3 class="fontsize3"><u>Mens Wear</u></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_hc" inherit_id="website.snippets" name="Place into hc">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_homepage_products" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
