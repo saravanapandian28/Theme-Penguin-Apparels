@@ -1,0 +1,84 @@
+<odoo>
+<template id="footer_custom" inherit_id="website.layout" name="Default">
+    <xpath expr="//footer" position="replace">
+        <div class="footr">
+        <div class="footer-width">
+		<div class="footer-columns">
+			<div class="first-column">
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a class="footer-top-head" href="#">Penguin Apparels</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Why us?</a></li>
+						<li><a href="#">Process</a></li>
+						<li><a href="#">Clients Shipping</a></li>
+						<li><a href="#">Helps Support</a></li>
+						<li><a href="#">Jobs</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="#">About Us</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Vision</a></li>
+						<li><a href="#">Awards</a></li>
+						<li><a href="#">Founders</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="#">Products</a></li>
+						<li><a href="#">Gallery</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="#">Process</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Capability</a></li>
+						<li><a href="#">certification</a></li>
+						<li><a href="#">Clients</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="#">Beyond Badge</a></li>
+						<li><a href="#">Empowerment</a></li>
+						<li><a href="#">Social activities</a></li>
+						<li><a href="#">Green Initatives</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="#">Contact</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Complaints</a></li>
+						<li><a href="#">Regular Compliance</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms condition</a></li>
+					</ul>
+				</div>		
+			</div>
+			<hr/>
+			<div class="second-column">
+				<ul>
+					<li class="foot-head"><a href="#">Connect</a></li>
+					<li><a href="#">Linkedin</a></li>
+					<li><a href="#">Email</a></li>
+					<div class="social-logo">
+					<li><img src="https://image.flaticon.com/icons/png/512/60/60543.png" alt="Penguin Apparel logo"/></li>
+					<li><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="Penguin Apparel logo"/></li>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<hr/>
+		<div class="copyright">
+			Copyright Reserved by Penguin Apparels - 2020.
+		</div>
+        </div>
+		</div>
+    </xpath>
+</template>   
+</odoo>

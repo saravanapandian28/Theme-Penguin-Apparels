@@ -1,0 +1,118 @@
+/*Footer Is HEre*/
+.footr{
+    max-height: fit-content;
+    max-width: 100%;
+    background-color:@base-color;
+    padding: 70px 0;
+    .footer-width{
+        max-width: 75%;
+        margin: auto;
+    }
+    hr{
+        margin: 20px 0;
+        display: none;
+        width: 350px;
+    }
+    .footer-columns{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;        
+    }
+    ul{
+        margin: 0;
+        li{
+            list-style: none;
+            display: block;
+            margin: 20px 0;
+            font-size: 13px;
+            margin-left: -25px;
+            font-family: @most-font-family;
+            a{
+                color:#fff;
+                transition: all 0.5s ease;
+                &:hover{
+                    color:@base-hover-color;
+                }
+            }
+        }
+    }
+}
+
+.footer-columns .first-column{
+     display: flex;
+}
+.footer-columns .foot-head{
+    font-family:@base-font-family;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.first-column .sub-col{
+    margin-right: 35px;
+}
+
+.footr .copyright{
+    margin-top: 50px;
+    font-size: 12px;
+    color: #fff;
+}
+.footr .second-column img{
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+
+@media(max-width: 1040px){
+.footr{
+    .footer-width{
+        max-width: 90%;
+        margin: auto;
+    }
+    ul li{
+        font-size: 11px;
+        margin: 10px 0;
+        margin-left: -25px;
+    }
+}
+
+}
+
+@media(max-width:948px){
+    .footr{
+        ul li{          
+            margin-left: -15px;
+        }
+    }   
+}
+
+@media(max-width: 900px){
+  .footr{
+    a{
+        display: none;
+    }
+    .foot-head a{
+        display: block;
+        font-weight: normal;
+    }
+    ul li{
+        font-size: 12px;
+    }
+    .footer-columns{
+        display: block;
+    .first-column{
+        display: inline-block;   
+    }
+}
+    .footer-top-head{
+        font-size: 18px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    .second-column img{
+        margin-right: 20px;
+       display: inline-block;
+    }
+  } 
+
+}
