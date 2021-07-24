@@ -1,0 +1,39 @@
+<template id="s_badge_page_training_list" name="badge page training list">
+<section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_content_quality_list" data-name="content quality list">
+        <div class="pa-site-width">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+              <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/Employee-Training-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Employee-Training-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/Employee-Training-Mobile-View.png">
+                    <img height="450px" width="500px" class="content-product-image" src="/theme_Advance/static/src/images/Employee-Training-Web-View.png" alt="Employee Employeement image"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level training-list">
+            <ul class="primary-subtitle fontsize3">
+                <li>Induction Training</li>
+                <li>On the Job Training</li>
+                <li>Quality and Compliance Training</li>
+                <li>safety and Security Training</li>
+                <li>Process Improvemenet Training</li>
+                <h1 class="primary-heading fontsize4"><u>Need Based</u> Training Like</h1>
+                <li>Supervisory skill Training</li>
+                <li>Human Empowerment Training</li>
+                <li>Team Works and Communication Skills Training</li>
+                <li>Customers Code of conduct Training</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+<template id="place_into_page_content2" inherit_id="website.snippets" name="Place into page content2">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_badge_page_training_list" t-thumbnail="/theme_Advance/static/src/images/logos/protection.png"/>
+    </xpath>
+</template>
