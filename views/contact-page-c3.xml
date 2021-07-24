@@ -1,0 +1,30 @@
+<template id="s_content_contact_address" name="contecnt contact address">
+
+  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="pa-site-width">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <h2 class="primary-heading fontsize2">Registered Office</h2>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="primary-paragraph fontsize1">No.2, Meenakshi Nagar,
+            G.S.T road, Pasumalai,
+            Madurai - 625004
+            TAMILNADU, INDIA</p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <h2 class="primary-heading fontsize2">Factory Address</h2>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="primary-paragraph fontsize1">D-53, Industrial Estate, Kappalur,
+            H-12, Industrial Estate, Kappalur,
+            Madurai - 625008
+            TAMILNADU, INDIA</p>
+            </div>
+            </div>
+        </div>
+      </section>
+
+</template>
