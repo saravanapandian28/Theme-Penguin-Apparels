@@ -1,0 +1,66 @@
+<template id="s_homepage_quality_list" name="content quality list">
+<section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="pa-site-width pb48">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading fontsize2">Why are we That Special?</h3>
+               </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-button">Send Enquery</a>
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 o_colored_level">
+            <div class="blue-layer-image">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/PenguinApparel-Building-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                    <img class="img img-fluid img-max mx-auto content_quality_image" src="/theme_Advance/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+            </div>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level content_quality_list primary-heading">
+            <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/nedle.png"/></li>
+              <li> Design and Devolopment</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/procces.png"/></li>
+              <li> Flexibles and Minimums</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/Inspect-Logo.png"/></li>
+              <li> Prototyping and Samplings</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/folded.png"/></li>
+              <li> Fabric Sourcing and Devolopment</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/shirt.png"/></li>
+              <li> Pattern devolopment</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/timekeep.png"/></li>
+              <li> Quick Order Fullfillment</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/protection.png"/></li>
+              <li> Trusted Quality Standards</li>
+           </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_hd" inherit_id="website.snippets" name="Place into hd">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_homepage_quality_list" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
