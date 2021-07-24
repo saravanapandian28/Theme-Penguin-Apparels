@@ -1,0 +1,31 @@
+<template id="s_process_page_content_imagetext" name="process page content imagetext">
+<section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_content_principles" data-name="aboutus page text image">
+        <div class="row align-items-center container">
+          <div class="col-lg-6 pb16 umbotron jumbotron-img rounded o_cc o_cc1 o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/process-web.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/process-web.jpg">
+                  <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/process-mobile.jpg">
+                    <img class="img img-fluid mx-auto" src="/theme_Advance/static/src/images/process-web.jpg" alt="penguin_apparels Apparels Building Image" loading="lazy"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+          </div>
+          <div class="col-lg-6 jumbotron rounded o_cc o_cc1 pb32 o_colored_level" data-name="Box">
+            <div class="s_nb_column_fixed  bg-whit pt16 pb16">
+              <h1>
+                <font class="primary-heading fontsize2 o_default_snippet_text">Commited to Exceeding our Customers Expectation's every time</font>
+              </h1>
+              <p class="lead primary-paragraph fontsize1 pt16 o_default_snippet_text">We have established objectives to measure the Quality of our Process and its Performance in order to ensure the continous improvement of the process and stringent compliance</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </template>
+ 
+<template id="place_into_page_content_imaget" inherit_id="website.snippets" name="Place into page image-text">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_process_page_content_imagetext" t-thumbnail="/theme_Advance/static/src/images/logos/procces.png"/>
+    </xpath>
+</template>
