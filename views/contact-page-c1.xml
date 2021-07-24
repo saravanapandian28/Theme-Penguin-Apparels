@@ -1,0 +1,15 @@
+<template id="s_contact_banner" name="contact banner">
+    <section class="s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="contact-page-banner">
+                    
+            <h1 class="primary-heading fontsize2 contact-banner-center">Contact Us</h1>
+        </div>
+      </section>
+</template>
+
+<template id="place_into_contactpage" inherit_id="website.snippets" name="Place into contactpage">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_contact_banner"
+                t-thumbnail="/theme_Advance/static/src/images/logos/folded.png"/>
+    </xpath>
+</template>
