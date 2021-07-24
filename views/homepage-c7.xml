@@ -1,0 +1,30 @@
+<template id="s_homepage_foot_banner" name="foot banner">
+    <section class="centered-content s_call_to_action o_cc  pt48 o_colored_level">
+    <div class="pa-site-width">
+      <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading fontsize2 centered-content">We ship to 26+ Countries as We are talking</h3>
+                </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+                <a href="/contactus" class="primary-button centered-content">Talk to us</a>
+            </div>
+          </div>
+    </div>
+        <div class="footbanner pt16">
+        <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/Footer-Banner-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Footer-Banner-Web_View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/Footer-Banner-Tablet-View.jpg">
+                    <img src="/theme_Advance/static/src/images/Footer-Banner-Web_View.png" alt="footer banner image"/>
+                    </source>
+                </source>
+              </source>
+            </picture>
+        </div>
+      </section>
+</template>
+<template id="place_into_hg" inherit_id="website.snippets" name="Place into hg">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_homepage_foot_banner" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
