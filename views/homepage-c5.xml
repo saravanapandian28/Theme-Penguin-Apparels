@@ -1,0 +1,124 @@
+<template id="s_homepage_process_list" name="content process list">
+  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level process-content-web">
+        <div class="pa-site-width">
+          <div class="row">
+          <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading centered-content fontsize2">Process Diversity</h3>
+               </div>
+            <div class="col-lg-3 pt8 pb8 o_colored_level">
+              <p style="float:right;" class="centered-content">
+                <a href="/contactus" class="primary-button">Contact Now</a>
+              </p>
+            </div>
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="primary-paragraph fontsize1">We are goiing to launch a rocket to space soon. Just Kidding! But Seriously We can Make wonders with our diverse pool of Machinery. We use latest generation machinary to produce premium quality products.</p>
+              <h6 class="fontsize1"><b>And we completely audit our product by</b></h6>
+               <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_Advance/static/src/images/logos/Raw-Matirel-Logo.png"/>
+            <h3 class="primary-paragraph fontsize5">Raw Matierial inspection and testing</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_Advance/static/src/images/logos/Fabric-Logo.png"/>
+            <h3 class="primary-paragraph fontsize5">Fusing bond strength testing</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+           <img class="logo-size" src="/theme_Advance/static/src/images/logos/Testing-Loigo.png"/>
+           <h3 class="primary-paragraph fontsize5">Fastener pull strength testing</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_Advance/static/src/images/logos/Metal-Logo.png"/>
+               <h3 class="primary-paragraph fontsize5">Metal Deletion test</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+           <img class="logo-size" src="/theme_Advance/static/src/images/logos/Inspect-Logo.png"/>
+             <h3 class="primary-paragraph fontsize5">In Progress Inspection</h3>
+            </div>
+            
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_Advance/static/src/images/logos/Shirt-Logo.png"/>
+             <h3 class="primary-paragraph fontsize5">Finished product inspection</h3>
+            </div>
+          </div>
+
+            </div>
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <div class="row s_nb_column_fixed">
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Stretching-Machine-Web-View.png"/><div class="image_text">Stretching</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Filling-Machine-Web-View.jpg"/><div class="image_text">Filling</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Cutting-Machine-Web-View.jpg"/><div class="image_text">Cutting</div></div>
+             
+            </div>
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Pressing-Machine-Web-View.png"/><div class="image_text">Pressing</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Quilting-Machine-Web-View.jpg"/><div class="image_text">Quilting</div></div>
+            </div>
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Sewing-Machine-Web-View.jpg"/><div class="image_text">Sewing</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Washing-Machine-Web-View.png"/><div class="image_text">Washing</div></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_rounded pt24 o_colored_level o_slideshow process-content-mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="Image Gallery">
+        <div class="pa-site-width">
+          <div class="row">
+          <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading centered-content fontsize2">Process Diversity</h3>
+               </div>
+            <div class="col-lg-3 pb8 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-button">Contact Now</a>
+              </p>
+            </div>
+            </div>
+          <div id="slideshow_1625416993716" class="carousel slide pt24" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
+            <div class="carousel-inner" style="padding: 0;">
+              <div class="carousel-item" style="">
+               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Stretching-Machine-Web-View.png"/><div class="image_text">Stretching</div></div>
+               </div>
+              <div class="carousel-item undefined" style="">
+               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Filling-Machine-Web-View.jpg"/><div class="image_text">Filling</div></div>
+               </div>
+              <div class="carousel-item undefined" style="">
+             <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Cutting-Machine-Web-View.jpg"/><div class="image_text">Cutting</div></div>
+             </div>
+              <div class="carousel-item undefined active" style="">
+             <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Pressing-Machine-Web-View.png"/><div class="image_text">Pressing</div></div>
+                 </div>
+              <div class="carousel-item undefined" style="">
+            <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Quilting-Machine-Web-View.jpg"/><div class="image_text">Quilting</div></div>
+            </div>
+              <div class="carousel-item undefined" style="">
+             <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Sewing-Machine-Web-View.jpg"/><div class="image_text">Sewing</div></div>
+                </div>
+              <div class="carousel-item undefined" style="">
+               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Advance/static/src/images/Washing-Machine-Web-View.png"/><div class="image_text">Washing</div></div>
+            </div>
+            </div>
+            <a class="carousel-control-prev o_we_no_overlay" href="#slideshow_1625416993716" data-slide="prev" aria-label="Previous" title="Previous">
+              <span class="fa fa-chevron-left fa-2x text-white"/>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next o_we_no_overlay" href="#slideshow_1625416993716" data-slide="next" aria-label="Next" title="Next">
+              <span class="fa fa-chevron-right fa-2x text-white" data-original-title="" title="" aria-describedby="tooltip411103"/>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_he" inherit_id="website.snippets" name="Place into he">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_homepage_process_list" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>

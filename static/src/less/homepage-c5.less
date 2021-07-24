@@ -1,0 +1,32 @@
+//for content-5 process lists
+.image-container{
+    margin-bottom: -15px;
+    background-color: @base-color;
+    position: relative;
+    text-align: center;
+    color: white;
+    .texton-image{
+        opacity: 0.5;
+    }
+    .image_text{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+}
+.process-content-mobile{
+    display: none;
+}
+
+@media(max-width:992px){
+    .process-content-web{
+        display: none;
+    }
+    .process-content-mobile{
+        display: block;
+        margin-bottom: 30px;
+        .primary-btn{
+            bottom: 10px;
+        }
+    }
+}
