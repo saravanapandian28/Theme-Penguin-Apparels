@@ -1,0 +1,29 @@
+<template id="s_homepage_company_built" name="content Company Built">
+  <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="pa-site-width">
+          <div class="row">
+            <div class="col-lg-9 pb32 o_colored_level">
+              <h3 class="primary-heading fontsize2">We Care as We Built</h3>
+              <p class="primary-paragraph fontsize1">This world is for everyone and we ensure we respect resourses and we are certified social friendly as we built these wonderful products for you</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph fontsize1">GREEN BUILDING GOLD RATING by</p>
+            <h3 class="primary-heading fontsize2"> LEED AND IGBC</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph fontsize1">WATER HARVEST WITH</p>
+            <h3 class="primary-heading fontsize2">RWH <span class="primary-paragraph">SYSTEM</span></h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph fontsize1">ENERGY CONVERSION</p>
+           <h3 class="primary-heading fontsize2">SOLAR-PV <span class="primary-paragraph">SYSTEM</span></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_hf" inherit_id="website.snippets" name="Place into hf">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_homepage_company_built" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
