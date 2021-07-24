@@ -1,0 +1,30 @@
+<template id="s_content_aboutus_export" name="company export details">
+<section class="centered-content bg-200 s_call_to_action o_cc pt48 pb24 o_colored_level white-bg" data-snippet="s_content_aboutus_export" data-name="company export details">
+        <div class="pa-site-width">
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+              <h3 class="primary-heading o_default_snippet_text fontsize2">$51.8 M</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">GARMENTS EXPORTS</p>
+              <p class="primary-subtitle o_default_snippet_text fontsize3">Years 2016 - 2018</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+              <h3 class="primary-heading o_default_snippet_text fontsize2">100+</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">CLIENTS</p>
+              <p class="primary-subtitle o_default_snippet_text fontsize3">Across The Globe</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+              <h3 class="primary-heading o_default_snippet_text fontsize2">1000+</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">EXPORTS</p>
+              <p class="primary-subtitle o_default_snippet_text fontsize3">All Location</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+
+<template id="place_into_aboutus" inherit_id="website.snippets" name="Place into aboutus page">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_content_aboutus_export" t-thumbnail="/theme_Advance/static/src/images/logos/Inspect-Logo.png"/>
+    </xpath>
+</template>
