@@ -1,0 +1,169 @@
+/*------------Header----------*/
+header{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+// max width of the navbar
+.menu-btn{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    .fa{
+        color: black;
+    }
+}
+
+
+.tonavbar{
+    width: 100%;
+    padding: 35px 0;
+    font-family: @most-font-family;
+    margin-top: 0;
+    transition: all 0.4s ease;
+   
+    .max-width{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: auto;
+        
+    }
+    //menu-button of mobile view
+    
+    .logo{
+        img{
+            height: 80px;
+            margin-top: -10px;
+        }
+        a{ 
+            text-decoration: none;
+            color:@base-color;
+            font-size: 23px;
+            transition: 0.8s;
+            margin-bottom: -10px;
+        }
+        a:hover{
+            color:@base-hover-color;
+        }
+    }
+    .menu{
+            .contactbtn{
+                margin-left: 0;
+                margin: 20px 15px;
+            }
+        li{
+            list-style: none;
+            display: inline-block;
+        a{
+            color:@base-color;
+            font-size: 13px;
+            margin-left: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: color 0.6s ease;
+        
+            &:hover{
+                color: @base-hover-color;
+                
+            }
+        }
+        
+    }
+    .logo{
+    display: none;
+    }
+    
+}
+
+}
+.activepage{
+    text-decoration: underline;
+}
+
+//header view at 902px
+
+@media(max-width:1010px){
+    
+    .tonavbar{
+        .max-width{
+            max-width: 96%;
+        }
+            .logo{
+            a{
+              font-size: 20px;  
+            }
+            img{
+                height: 65px;
+            }
+        }
+        .menu{
+            li a{
+                font-size: 11px;
+                margin-left: -12px;                
+            }
+        }
+    }   
+}
+//header at mobile view of 700px
+
+@media(max-width:780px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+        
+        i.active:before{
+            content: "\f00d";
+        }
+    }
+  .tonavbar {
+    
+    .logo {
+        margin: auto; 
+        a{
+            font-size: 18px;
+        }
+      }
+      //mobile view dropdown menu
+      .menu.active{
+        left: 0;
+      }
+      .menu{
+      position: absolute;
+      overflow: hidden;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      z-index: 5;
+      background:rgb(255, 255, 255);
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+  li{
+      display: block;
+   a{
+      display: inline-block;
+      margin: 17px 0;
+      font-size: 15px;
+      text-transform: lowercase;
+  }
+}
+  .logo{
+     display: block;
+     padding-bottom: 20px;
+  a{
+      font-size: 18px;
+  }
+    }
+  .primary-button{
+      border: none;
+  }
+}
+}
+}
