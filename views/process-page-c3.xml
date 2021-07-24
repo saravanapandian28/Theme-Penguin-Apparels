@@ -1,0 +1,88 @@
+
+<template id="s_process_page_content_excellence" name="process page content excellence">
+<section class="s_masonry_block o_colored_level" data-vcss="001" data-snippet="s_masonry_block" data-name="Masonry">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-lg-6 pt24 pb8 text-center " data-name="Block">
+                  <img src="/theme_Advance/static/src/images/cutting.jpg" alt="cutting" loading="lazy"/>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Cutting</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">We use Computerised Pattern Making Systems and Automatic Cutting Machines from lectra and Builmer to achieve the highest level of perfection</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Sewing</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Our best in class sewing machinery from Dueurkopp Adier and juki provide sophistation to our make</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/stretch.jpg" alt="stretch" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/embroidery.jpg" alt="cutting" loading="lazy"/>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Embroidary</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">We are equipped with Barudan computerised embroidery machines to add brand value to our products. We can handle upto 9 colours of embroidered designs</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Quilting</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Automated template profiles from juki enable us to embellish products with clean, desighn quilts to hold insulation and provide great Quality</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/quilting.jpg" alt="cutting" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/filling.jpg" alt="cutting" loading="lazy"/>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Filling</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">our computerised down filling machines provide accurate fills in each quilt, providing an even finish to insulated garments</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Washing</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Intricately manufactured garments are washed using Tonello Washing machines for excellent handle and varied wash down looks</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/washing.png" alt="cutting" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/pressing.png" alt="cutting" loading="lazy"/>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Pressing and Form</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">We add body and style to our products with the use of our form finishing equipment from veit and macpi</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Stretching</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Our best in class sewing machinery from Dueurkopp Adier and juki provide sophistation to our make</p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center" data-name="Block">
+                  <img src="/theme_Advance/static/src/images/stretch.jpg" alt="stretch" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </template>
+ <template id="place_into_page_content_excellence" inherit_id="website.snippets" name="Place into page excelleckce">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_process_page_content_excellence" t-thumbnail="/theme_Advance/static/src/images/logos/procces.png"/>
+    </xpath>
+</template>
