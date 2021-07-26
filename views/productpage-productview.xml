@@ -1,0 +1,55 @@
+<odoo>
+	
+	<template id="s_product_page_products" name="product page product">
+<section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image">
+        <div class="pa-site-width">
+          <div class="row">
+            <div class="col-lg-6 pb16">
+              <div class="product-category">
+                  <p class="pb32" style="font-family:'sans-serif';font-size:26px;">CATEGORIES</p>
+                    <ul class="list-unstyled">
+                     <t t-foreach="products" t-as="product">
+                            <li>
+                                <a href="#" class="dropdown-divider productmenu primary-heading fontsize2"><i class="fa fa-long-arrow-right"></i><t t-esc="product.name"/></a>
+                                <ul class="list-unstyled hide-productmenu">
+                                    <t t-foreach="catagorys" t-as="catagory">
+                                        <li>
+                                            <t t-esc="catagory.name"/>
+                                        </li>
+                                    </t>
+                                </ul>
+                            </li>
+                        </t>
+                    </ul>
+            </div>
+        </div>
+        <div class="col-lg-6 pb16 row">
+              <t t-foreach="cloths" t-as="cloth"> 
+              <div class="col-lg-4 border m-2">
+                  <img class="img img-fluid d-block product-popup" t-if="cloth.cloth_image" t-att-src="'data:image/png;base64,%s' % to_text(cloth.cloth_image)"/>
+                    
+                    
+              </div>
+              </t>
+              
+            </div>
+          </div>
+          </div>
+        <div class="modal fade bd-example-modal-sm border" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+              <h1 class="primary-heading fontsize2 pt32 pb32">Men's Wear</h1>
+              <img id="product-img-pop" class="img img-fluid d-block pb32 p-3" src="" loading="lazy"/>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_product_products" inherit_id="website.snippets" name="Place into product products">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_n.s_product_page_products" t-thumbnail="/theme_n/static/src/images/logos/shirt.png"/>
+    </xpath>
+</template>
+
+</odoo>
