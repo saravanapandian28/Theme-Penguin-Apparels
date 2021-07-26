@@ -1,0 +1,25 @@
+<odoo>
+	
+	<template id="s_product_foot_text" name="product page foot txt">
+<section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level white-bg" data-snippet="s_content_aboutus_export" data-name="company export details">
+        <div class="pa-site-width">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pb16">
+              <h1>
+                <font class="primary-heading fontsize2 o_default_snippet_text">Lets Bring The Apparels Dreams to our Life</font>
+              </h1>
+            </div>
+            <div class="col-lg-6 pb32 float-sm-right" data-name="Box">
+              <a href="/cantactus" class="primary-button">Reach us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_product_foot" inherit_id="website.snippets" name="Place into product foot">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_n.s_product_foot_text" t-thumbnail="/theme_n/static/src/images/logos/shirt.png"/>
+    </xpath>
+</template>
+
+</odoo>
