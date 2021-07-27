@@ -1,0 +1,16 @@
+<odoo>
+<template id="s_product_banner" name="product banner">
+    <section class="s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="product-page-banner">
+                     
+            <h1 class="primary-heading fontsize2 product-banner-center">Our Products</h1>
+        </div>
+      </section>
+</template>
+<template id="place_into_product_banner" inherit_id="website.snippets" name="Place into product banner">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_n.s_product_banner" t-thumbnail="/theme_n/static/src/images/logos/shirt.png"/>
+    </xpath>
+</template>
+
+</odoo>
