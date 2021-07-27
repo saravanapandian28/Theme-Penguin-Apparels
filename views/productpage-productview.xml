@@ -35,13 +35,25 @@
             </div>
           </div>
           </div>
-        <div class="modal fade bd-example-modal-sm border" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-sm" role="document">
-            <div class="modal-content">
-              <h1 class="primary-heading fontsize2 pt32 pb32">Men's Wear</h1>
-              <img id="product-img-pop" class="img img-fluid d-block pb32 p-3" src="" loading="lazy"/>
+        <div class="s_popup o_snippet_invisible" data-vcss="001" data-snippet="s_popup" data-name="Popup" id="sPopup1627373523429" data-invisible="1">
+          <div class="modal fade s_popup_middle modal_shown border" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog d-flex">
+              <div class="modal-content oe_structure">
+                <div class="s_popup_close js_close_popup o_we_no_overlay o_not_editable o_default_snippet_text" aria-label="Close">×</div>
+                <section class="s_banner o_colored_level pt0 pb0" data-snippet="s_banner">
+                  <div class="container">
+                    <h1 class="primary-heading popup-heading fontsize2 pt32">Men's Wear</h1>
+                    <p class="fontsize5 popup-heading pt8">SUITS > NAVY WHITE FULL SUIT</p>
+                    <div class="popup-container popup-heading border">
+                    <div class="popup-container-image">
+                      <img id="product-img-pop" class="img img-fluid d-block pb32 p-3" src="" loading="lazy"/>
+                     </div>
+                  <div class="popup-container-zoomin">plus</div>
+                  </div>
+                  </div>
+                </section>
+              </div>
             </div>
-            
           </div>
         </div>
       </section>
