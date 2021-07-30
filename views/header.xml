@@ -1,4 +1,14 @@
 <odoo>
+
+ <template id="before_header" inherit_id="portal.frontend_layout" name="Header">
+    <xpath expr="//header" position="before">
+
+                <div class="oe_structure oe_structure_solo" id="oe_structure_header_default_1"/>
+
+    </xpath>
+</template>
+
+
 <!-- Header-->
  <template id="replace_header" inherit_id="portal.frontend_layout" name="Header">
     <xpath expr="//header" position="replace">
