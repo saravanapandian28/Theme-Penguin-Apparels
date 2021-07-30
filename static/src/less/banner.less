@@ -1,0 +1,85 @@
+
+//banner-top
+#top-banner{
+    background-color: @base-color;
+    position: relative;
+    transition: top 0.3s;
+    img{
+        opacity: 0.5;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .center-top-banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #BannerTextOne{
+        text-align: center;
+        font-size: 11px;
+        color: white;
+    }
+    #BannerTextTwo{
+        text-align: center;
+        font-size: 46px;
+        color: white;
+    }
+    #ChangeBannerImage{
+
+        .circle-border{
+            position:absolute;
+            border:1px solid #fff;    
+            height:42px;
+            border-radius:50%;
+            -moz-border-radius:50%;
+            width:42px;
+    }
+        .rounded-circle{
+            height: 38px;
+            width: 38px;
+        }
+        color: @base-color;
+        text-align: center;
+        &:hover{
+            cursor: pointer;
+        }
+       
+    }
+    #BannerTextHome{
+        text-align: center;
+        font-size: 34px;
+        color: white;
+    }
+    #BannerTextThree{
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    }
+}
+//Banner font size 
+@media(max-width:1054px){
+    #top-banner{
+    #BannerTextTwo{
+        font-size: 40px;
+    }
+    #BannerTextHome{
+        font-size: 30px;
+    }
+}
+}
+
+@media(max-width:807px){
+    #top-banner{
+    #BannerTextTwo{
+        font-size: 8px;
+    }
+    #BannerTextHome{
+        font-size: 18px;
+    }
+    #BannerTextThree{
+        font-size: 6px;
+    }
+}
+}
