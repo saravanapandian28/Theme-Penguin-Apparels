@@ -1,3 +1,4 @@
+<odoo>
 <template id="s_homepage_products" name="homepage products">
   <section class="s_features pt32 pb32 o_colored_level" data-snippet="s_content_products" data-name="content products">
         <div class="pa-site-width">
@@ -13,7 +14,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level productandtext">
               <picture>
                 <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/Womens-Wear-Tablet-View.png">
                   <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Womens-Wear-Web-View.png">
@@ -25,7 +26,7 @@
               </picture>
               <h3 class="fontsize3"><u>Womens Wear</u></h3>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level productandtext">
               <picture>
                 <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Advance/static/src/images/Kids-wear-Tablet-View.png">
                   <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Kids-Wear-Web-View.png">
@@ -40,7 +41,7 @@
               </h3>
               <h3 class="fontsize3"><u>Kids Wear</u></h3>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level productandtext">
               <picture>
                 <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Tablet-View.png">
                   <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/Mens-Wear-Web-View.png">
@@ -61,3 +62,4 @@
         <t t-snippet="theme_Advance.s_homepage_products" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
     </xpath>
 </template>
+</odoo>
