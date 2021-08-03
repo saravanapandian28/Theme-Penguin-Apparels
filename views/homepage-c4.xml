@@ -17,9 +17,9 @@
             <div class="blue-layer-image content-quality-list-img">
             <picture>
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
-                <source media="(min-width: 991px)" srcset="/theme_n/static/src/images/PenguinApparel-Building-Web-View.png">
-                  <source media="(max-width: 768px)" srcset="/theme_n/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
-                    <img class="img-fluid" src="/theme_n/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
+                <source media="(min-width: 991px)" srcset="/theme_Advance/static/src/images/PenguinApparel-Building-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Advance/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                    <img class="img-fluid" src="/theme_Advance/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
               </source>
                 </source>
               </source>
@@ -31,31 +31,31 @@
             </div>
             <div class="col-lg-6 pt16 pb16 o_colored_level content_quality_list primary-heading">
             <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/nedle.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/nedle.png"/></li>
               <li> Design and Devolopment</li>
               </ul>
               <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/procces.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/procces.png"/></li>
               <li> Flexibles and Minimums</li>
               </ul>
               <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/Inspect-Logo.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/Inspect-Logo.png"/></li>
               <li> Prototyping and Samplings</li>
               </ul>
               <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/folded.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/folded.png"/></li>
               <li> Fabric Sourcing and Devolopment</li>
               </ul>
               <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/shirt.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/shirt.png"/></li>
               <li> Pattern devolopment</li>
               </ul>
               <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/timekeep.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/timekeep.png"/></li>
               <li> Quick Order Fullfillment</li>
               </ul>
               <ul class="two_in_row primary-heading fontsize4">
-              <li><img class="logo-size" src="/theme_n/static/src/images/logos/protection.png"/></li>
+              <li><img class="logo-size" src="/theme_Advance/static/src/images/logos/protection.png"/></li>
               <li> Trusted Quality Standards</li>
            </ul>
             </div>
@@ -67,5 +67,10 @@
               </p>
             </div>
       </section>
+</template>
+<template id="place_into_hd" inherit_id="website.snippets" name="Place into hd">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_homepage_quality_list" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
 </template>
 </odoo>
