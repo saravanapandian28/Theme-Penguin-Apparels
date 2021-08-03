@@ -1,4 +1,6 @@
 
+
+
 //for conten-4 quality list
 .content_quality_list{
     font-size: 25px ;
@@ -10,6 +12,10 @@
     }
 }
 }
+.textin-image,
+.quality-list-c2{
+    display: none;
+}
 
 @media(min-width:992px){
 .two_in_row{
@@ -20,19 +26,43 @@
 
 }
 @media(max-width:992px){
+
+    .quality-list-c1{
+       display: none;
+    }
+
     .two_in_row{
+        width: 120px;
         text-align: center;
         display: inline-block;
+        li{
+            padding-left: 10px;
+            text-align: center;
+        }
     }
     .content_quality_list{
+        
         font-size: 12px;
     }
     .logo-size{
-        margin: 15px 15px;
+        margin: 10px 10px;
         width: 20px;
         height: 20px;
     }
-    .content_quality_image{
-        width: 100%;
+    .content-quality-list-img{
+        img{
+            object-fit: cover;
+            height: 230px;
+            width: 100%;
+        }
+        .textin-image{
+            display: block;
+            width: max-content;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -30%);
+        }
     }
+    
 }
