@@ -1,0 +1,26 @@
+//our guiding principles
+.guiding-principle{
+    &-sections{
+    justify-content: flex-start;
+    padding: 32px;
+    &-logo{
+        width: 45px;
+        height: 45px;
+    }
+    img{
+        margin-left: 5px;
+    }
+}
+}
+@media(max-width:992px){
+    .guiding-principle{
+        .centered-content{
+            text-align: center;
+        }
+        &-sections{
+        img{
+            margin-left: 0;
+        }
+    }
+    }
+}
