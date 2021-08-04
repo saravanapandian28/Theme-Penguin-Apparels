@@ -1,23 +1,25 @@
 <template id="s_content_aboutus_export" name="company export details">
-<section class="centered-content bg-200 s_call_to_action o_cc pt48 pb24 o_colored_level white-bg" data-snippet="s_content_aboutus_export" data-name="company export details">
+<section class="space-between-contents bg-200" data-snippet="s_content_aboutus_export" data-name="company export details">
+       <div class=" export-detail">
         <div class="pa-site-width">
-          <div class="row">
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
-              <h3 class="primary-heading o_default_snippet_text fontsize2">$51.8 M</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">GARMENTS EXPORTS</p>
+          <div class="row centered-content">
+            <div class="col-lg-4 o_colored_level export-detail-c">
+              <h3 class="primary-heading pb16 o_default_snippet_text fontsize7">$51.8 M</h3>
+              <p class="light-font o_default_snippet_text fontsize5 export-detail-head">GARMENTS EXPORTS</p>
               <p class="primary-subtitle o_default_snippet_text fontsize3">Years 2016 - 2018</p>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
-              <h3 class="primary-heading o_default_snippet_text fontsize2">100+</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">CLIENTS</p>
-              <p class="primary-subtitle o_default_snippet_text fontsize3">Across The Globe</p>
+            <div class="col-lg-4 o_colored_level export-detail-c">
+              <h3 class="primary-heading pb16 o_default_snippet_text fontsize7">100+</h3>
+              <p class="light-font o_default_snippet_text fontsize5 export-detail-head">CLIENTS</p>
+              <p class="primary-subtitle o_default_snippet_text fontsize3 export-detail-head">Across The Globe</p>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
-              <h3 class="primary-heading o_default_snippet_text fontsize2">1000+</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">EXPORTS</p>
+            <div class="col-lg-4 o_colored_level export-detail-c">
+              <h3 class="primary-heading pb16 o_default_snippet_text fontsize7">1000+</h3>
+              <p class="light-font o_default_snippet_text fontsize5 export-detail-head">EXPORTS</p>
               <p class="primary-subtitle o_default_snippet_text fontsize3">All Location</p>
             </div>
           </div>
+        </div>
         </div>
       </section>
 </template>
