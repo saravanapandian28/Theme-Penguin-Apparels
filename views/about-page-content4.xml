@@ -1,3 +1,4 @@
+<odoo>
 <template id="s_content_aboutus_export" name="company export details">
 <section class="space-between-contents bg-200" data-snippet="s_content_aboutus_export" data-name="company export details">
        <div class=" export-detail">
@@ -30,3 +31,4 @@
         <t t-snippet="theme_Advance.s_content_aboutus_export" t-thumbnail="/theme_Advance/static/src/images/logos/Inspect-Logo.png"/>
     </xpath>
 </template>
+</odoo>
