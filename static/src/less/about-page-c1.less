@@ -1,7 +1,66 @@
-.aboutus-page-c-one-text1{
-    left: 300px;
+.aboutus-page-c-one{
+    &-text1{
+    left: 150px;
+    z-index: 3;
 }
-
-.aboutus-page-c-one-text2{
-    left: 300px;
+&-text2{
+    right: 150px;
+    z-index: 4;
+}
+    &-img{
+        height: 700px;
+        width: 700px;
+        object-fit: cover;
+        &-part{
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+.text-inside-content{
+    padding: 70px 50px;
+}
+@media(max-width:1100px){
+    .aboutus-page-c-one{
+        &-text1{
+        left: 110px;
+    }
+    &-text2{
+        right: 110px;
+    }
+        &-img{
+            height: 600px;
+            width: 600px;
+        }
+    }
+    .text-inside-content{
+        padding: 40px 20px;
+    }
+}
+@media(max-width:992px){
+    .aboutus-page-c-one{
+        &-text1{
+        left: 0;
+    }
+    &-text2{
+        right: 0;
+    }
+    &-part-1{
+        background-image: url('/theme_n/static/src/images/PenguinApparel-Building-Mobile-View.jpg');
+        background-size: cover;
+        padding: 40px;
+    }
+    &-part-2{
+        background-image: url('/theme_n/static/src/images/Penguin-Workers-Mobile-View.jpg');
+        background-size: cover;
+        padding: 40px;
+    }
+        &-img-part{
+            display: none;
+        }
+    }
+    .text-inside-content{
+        text-align: center;
+        padding: 15px 15px;
+    }
 }
