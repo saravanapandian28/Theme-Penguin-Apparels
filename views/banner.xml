@@ -1,21 +1,21 @@
 <odoo>
-<template id="s_content_top_banner" name="top banner">
+    <template id="s_content_to_banner" name="top banner">
     <section class="centered-content o_cc">
-            <div id="top-banner">
-                <img id="BannerImg" class="img img-fluid img-max mx-auto" src="/theme_n/static/src/images/Banner-Web-View.png" alt="Banner Image"/>
+            <div id="top-banner" class="autohide">
+                <img id="BannerImg" class="img img-fluid img-max mx-auto" src="/theme_Advance/static/src/images/Banner-Web-View.png" alt="Banner Image"/>
                 <div class="center-top-banner">
                 <div id="BannerTextOne" class="primary-paragraph pb8">WE ARE</div>
                 <div id="BannerTextHome" class="primary-heading pb16">Penguin Apparels</div>
-                <div id="ChangeBannerImage"><i id="CircleBack"><i id="PlayPause" class="rounded-circle fa fa-play"/></i></div>
+                <div id="ChangeBannerImage"><div id="PlayAndPause"><a href="#" id="play"><i class="fa fa-play" ></i></a></div></div>
                 <div id="BannerTextTwo" class="primary-heading pb16"></div>
                 <div id="BannerTextThree" class="primary-paragraph"></div>
             </div>
         </div>
     </section>
 </template>
-<template id="place_into_hh" inherit_id="website.snippets" name="Place into hh">
-    <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_n.s_content_top_banner" t-thumbnail="/theme_n/static/src/images/logos/PenguinApparels-Logo.png"/>
+<template id="place_into_hk" inherit_id="website.snippets" name="Place into hk">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Advance.s_content_to_banner" t-thumbnail="/theme_Advance/static/src/images/logos/PenguinApparels-Logo.png"/>
     </xpath>
 </template>
 </odoo>
