@@ -1,14 +1,14 @@
 
-
-
-<template id="s_process_page_content_delivery" name="process page content delievery">
- <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_image_text" data-name="badge page content1">
+<odoo>
+  
+  <template id="s_process_page_content_delivery" name="process page content delievery">
+  <section class="s_text_image o_colored_level space-between-contents" data-snippet="s_image_text" data-name="process page content delievery">
         <div class="pa-site-width">
           <div class="row align-items-center">
-            <div class="col-lg-6 pt16 pb16 o_colored_level">
-              <h1 class="primary-heading fontsize2 centered-content o_default_snippet_text">Delievering Excellence</h1>
+            <div class="col-lg-7 o_colored_level">
+              <h1 class="primary-heading fontsize9 centered-at-9 o_default_snippet_text">Delievering Excellence</h1>
             </div>
-            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <div class="col-lg-5 pt16 pb16 o_colored_level">
               <p class="primary-paragraph fontsize1 centered-content o_default_snippet_text">They say "Strenght of a chain is known by its weakest link". We say "It is applicable to the clothes that we wear also"</p>
               <p class="primary-paragraph fontsize1 centered-content o_default_snippet_text">We deliver excellence in our products through the fineness of our making process</p>
             </div>
@@ -19,6 +19,8 @@
 </template>
 <template id="place_into_page_content_delivery" inherit_id="website.snippets" name="Place into page delivery">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_Advance.s_process_page_content_delivery" t-thumbnail="/theme_Advance/static/src/images/logos/procces.png"/>
+        <t t-snippet="theme_n.s_process_page_content_delivery" t-thumbnail="/theme_n/static/src/images/logos/procces.png"/>
     </xpath>
 </template>
+
+</odoo>
