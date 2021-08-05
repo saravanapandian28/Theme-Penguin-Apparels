@@ -1,21 +1,31 @@
+//collaborate-form
 
-//about us page export details
-.export-detail{
-    &-head{
-        padding-bottom: 0;
-        margin-bottom: 0;
+.collaborate-form{
+    .form-c1{
+        margin-top: -150px;
+        a{
+            float: right;
+        }
     }
-    &-c{
-        padding: 32px 0;
+    .form-c2{
+        &-l{
+            input{
+                border: none;
+            }
+            textarea{
+                border: none;
+            }
+            padding: 15px 0;
+        }
     }
 }
 @media(max-width:992px){
-    .export-detail{
-        .centered-content{
-            text-align: center;
+    .collaborate-form{
+        .form-c1{
+            margin: 0;
         }
-        &-c{
-        padding-bottom: 20px;
+    .form-button{
+        text-align: center;
     }
-}
+    }
 }

@@ -1,29 +1,30 @@
-<template id="s_aboutus_page_form" name="aboutus page form">
- <section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="contact page forms">
-        <div class="pa-site-width">
+<odoo>
+<template id="s_aboutus_page_form" name="Collaborate form">
+  <section class="s_website_form space-between-contents" data-vcss="001" data-snippet="s_website_form" data-name="aboutus page form">
+        <div class="pa-site-width collaborate-form">
           <div class="row align-items-center">
-            <div class="col-lg-6 pt16 pb128 o_colored_level">
-              <h1 class="primary-heading fontsize2">Wish To Collabrate With us!</h1>
-              <p class="primary-paragraph fontsize1">lets get talking and makes your comes true, write to us now!</p>
+            <div class="col-lg-4 form-c1">
+              <h1 class="primary-heading fontsize2 o_default_snippet_text">Wish To Collaborate With us?</h1>
+              <p class="primary-paragraph fontsize1 pt32">lets get talking and makes your comes true, write to us now!</p>
             </div>
-            <div class="col-lg-6 pt16 pb16 o_colored_level">
-              <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="char" data-name="Field">
-                <input type="text" class="form-control s_website_form_input" placeholder="Your Name" name="Your Name" required="1" id="61s2gqondrn"/>
+            <div class="col-lg-8 form-c2">
+              <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required form-c2-l" data-type="char" data-name="Field">
+                <input type="text" class="form-control s_website_form_input bg-200" placeholder="Your Name" name="Your Name" required="1" id="61s2gqondrn"/>
               </div>
-              <div class="form-group s_website_form_field col-12  s_website_form_model_required  " data-type="email" data-name="Field">
-                <input type="email" class="form-control s_website_form_input" placeholder="Your Valid Email Adderss" name="email_from" required="true" id="ta3ydolt6m"/>
+              <div class="form-group s_website_form_field col-12  s_website_form_model_required  form-c2-l" data-type="email" data-name="Field">
+                <input type="email" class="form-control s_website_form_input bg-200" placeholder="Your Valid Email Adderss" name="email_from" required="true" id="ta3ydolt6m"/>
               </div>
-              <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="text" data-name="Field">
-                <textarea class="form-control s_website_form_input" name="Your Question" placeholder="Drop us a messages Here" required="1" id="5t1i7xa5j7q" rows="3"/>
+              <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  form-c2-l" data-type="text" data-name="Field">
+                <textarea class="form-control s_website_form_input bg-200" name="Your Question" placeholder="Drop us a messages Here" required="1" id="5t1i7xa5j7q" rows="3"/>
               </div>
               <div class="form-group col-12 pt16 s_website_form_submit" data-name="Submit Button">
-                <div style="width: 200px;" class="s_website_form_label"/>
-                  <a href="#" role="button" class="primary-button pt16 btn-lg s_website_form_send o_default_snippet_text">Submit</a>
-                  <span id="s_website_form_result"/>
-                </div>
-               </div>
+                <div class="s_website_form_label"/>
+                <a href="#" style="float:right;" role="button" class="primary-button pt16 btn-lg s_website_form_send o_default_snippet_text form-button">Submit</a>
+                <span id="s_website_form_result"/>
+              </div>
             </div>
           </div>
+        </div>
         </section>
         </template>
         <template id="place_into_aboutus_form" inherit_id="website.snippets" name="Place into form">
@@ -31,3 +32,4 @@
         <t t-snippet="theme_Advance.s_aboutus_page_form" t-thumbnail="/theme_Advance/static/src/images/logos/Inspect-Logo.png"/>
     </xpath>
 </template>
+</odoo>
