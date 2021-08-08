@@ -46,7 +46,7 @@
 						<li class="foot-head"><a href="#">Beyond Badge</a></li>
 						<li><a href="#">Empowerment</a></li>
 						<li><a href="#">Social activities</a></li>
-						<li><a href="#">Green Initatives</a></li>
+						<li><a href="#">Green Initiatives</a></li>
 					</ul>
 				</div>
 				<div class="sub-col">
@@ -67,8 +67,18 @@
 					<li><a href="#">Linkedin</a></li>
 					<li><a href="#">Email</a></li>
 					<div class="social-logo">
-					<li><img src="https://image.flaticon.com/icons/png/512/60/60543.png" alt="Penguin Apparel logo"/></li>
-					<li><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="Penguin Apparel logo"/></li>
+					<li><a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                    <i class="fa fa-facebook m-1"/>
+                                </a></li>
+                    <li><a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                    <i class="fa fa-twitter m-1"/>
+                                </a></li>
+                    <li><a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                                    <i class="fa fa-linkedin m-1"/>
+                                </a></li>
+                    <li><a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                                    <i class="fa fa-instagram m-1"/>
+                                </a></li>
 					</div>
 				</ul>
 			</div>
