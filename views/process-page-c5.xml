@@ -1,0 +1,54 @@
+<odoo>
+	
+	<template id="s_processpage_certificates" name="process page certificate">
+ <section class="s_text_image space-between-contents o_colored_level" data-snippet="s_processpage_certificates" data-name="process page certificate">
+        <div class="container">
+          <div class="row align-items-center certificates">
+            <div class="col-md-4 o_colored_level">
+              <div class="primary-heading fontsize6 o_default_snippet_text">Certification</div>
+              <div>
+                <a class="fontsize6 text-black o_default_snippet_text" id="leftarrow">←</a>
+                <a class="fontsize6 text-black o_default_snippet_text" id="rightarrow">→</a>
+              </div>
+            </div>
+            <div id="right" class="col-md-8 o_colored_level" data-name="Box">
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate1.jpg" alt="FAIR TRADE - USA Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">FAIR TRADE - USA</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate2.jpg" alt="SA 8000 : 2000 Certificate" loading="lazy"/>
+                <p>SA 8000 : 2000</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate3.jpg" alt="GOTS CERTIFIED Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">GOTS CERTIFIED</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate4.jpg" alt="OHSAS 18001:2007 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">OHSAS 18001:2007</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate5.jpg" alt="OCS version 1.0 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">OCS version 1.0</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate6.jpg" alt="ISO 9001:2008 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">ISO 9001:2008</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate7.jpg" alt="ISO 14001:2004 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">ISO 14001:2004</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>   
+<template id="place_into_page_content_crt" inherit_id="website.snippets" name="Place into page crt">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_processpage_certificates" t-thumbnail="/theme_pa/static/src/images/logos/procces.png"/>
+    </xpath>
+</template>
+
+</odoo>

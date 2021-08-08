@@ -1,35 +1,35 @@
 <odoo>
 <template id="s_process_page_content_imagetext" name="process page content imagetext">
- <section class="s_text_image pt16 pb32 o_colored_level process-textimage" data-snippet="s_content_principles" data-name="process page content imagetext">
+   <section class="s_text_image pt16 pb32 o_colored_level process-textimage" data-snippet="s_content_principles" data-name="process page content imagetext">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-7 o_colored_level process-textimage-col1">
+            <div class="col-md-7 o_colored_level process-textimage-col1">
               <picture>
-                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_n/static/src/images/process-web.jpg">
-                  <source media="(min-width: 991px)" srcset="/theme_n/static/src/images/process-web.jpg">
-                    <source media="(max-width: 768px)" srcset="/theme_n/static/src/images/process-mobile.jpg">
-                      <img class="img img-fluid mx-auto" src="/theme_n/static/src/images/process-web.jpg" alt="penguin_apparels Apparels Building Image" loading="lazy"/>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/process-web.jpg">
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/process-web.jpg">
+                    <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/process-mobile.jpg">
+                      <img class="img img-fluid mx-auto" src="/theme_pa/static/src/images/process-web.jpg" alt="Penguin Apparels Building Image" loading="lazy"/>
                     </source>
                   </source>
                 </source>
               </picture>
             </div>
-            <div class="col-lg-5 o_colored_level process-textimage-col2" data-name="Box">
+            <div class="col-md-5 o_colored_level process-textimage-col2" data-name="Box">
               <div class="s_nb_column_fixed">
                 <h1>
-                  <font class="primary-heading fontsize2 o_default_snippet_text">Commited to Exceeding our Customers Expectation's <u>everytime</u></font>
+                  <font class="primary-heading fontsize2 o_default_snippet_text">Committed to Exceeding our Customers Expectation's <u class="o_default_snippet_text">every time</u></font>
                 </h1>
-                <p class="lead primary-paragraph fontsize1 pt32 o_default_snippet_text">We have established objectives to measure the Quality of our Process and its Performance in order to ensure the continous improvement of the process and stringent compliance</p>
+                <p class="lead primary-paragraph fontsize1 pt32 o_default_snippet_text">We have established objectives to measure the Quality of our Process and its Performance in order to ensure the continuos improvement of the process and stringent compliance</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      </template>
+</template>
  
 <template id="place_into_page_content_imaget" inherit_id="website.snippets" name="Place into page image-text">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_Advance.s_process_page_content_imagetext" t-thumbnail="/theme_Advance/static/src/images/logos/procces.png"/>
+        <t t-snippet="theme_pa.s_process_page_content_imagetext" t-thumbnail="/theme_pa/static/src/images/logos/procces.png"/>
     </xpath>
 </template>
 </odoo>

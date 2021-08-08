@@ -1,56 +1,56 @@
 <odoo>
 <template id="s_process_page_content_partners" name="process page content partners">
- <section class="s_references pt48 pb32 o_colored_level" data-snippet="s_references" data-name="process page content partners">
-        <div class="pa-site-width">
-          <h2 class="o_default_snippet_text primary-heading fontsize9 partners-head" style="text-align: center;">We are Trusted Partners For the Popular Brands</h2>
+<section class="s_references space-between-contents o_colored_level" data-snippet="s_references" data-name="process page content partners">
+        <div class="container">
+          <h2 class="o_default_snippet_text pb24 primary-heading fontsize9 partners-head" style="text-align: center;">We are Trusted Partners For the Popular Brands</h2>
           <div class="row partners-png">
-            <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner1.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+            <div class="o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner1.png" class="img img-fluid mx-auto partner-logo" alt="Vineyard Vines Logo" loading="lazy"/>
             </div>
             <div class="t16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner2.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner2.png" class="img img-fluid mx-auto partner-logo" alt="Ralph Lauren Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner3.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner3.png" class="img img-fluid mx-auto partner-logo" alt="degre7 logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner4.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner4.png" class="img img-fluid mx-auto partner-logo" alt="Faherty Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner5.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner5.png" class="img img-fluid mx-auto partner-logo" alt="Dover Saddlery" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner6.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner6.png" class="img img-fluid mx-auto partner-logo" alt="Aigle Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner7.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner7.png" class="img img-fluid mx-auto partner-logo" alt="Sportif Usa Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner8.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner8.png" class="img img-fluid mx-auto partner-logo" alt=" ORVIS logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner9.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner9.png" class="img img-fluid mx-auto partner-logo" alt="HD Duvvilard Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner10.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner10.png" class="img img-fluid mx-auto partner-logo" alt="Boss Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner11.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner11.png" class="img img-fluid mx-auto partner-logo" alt="Karl Karl Lagereeld" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner12.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner12.png" class="img img-fluid mx-auto partner-logo" alt="Mec logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner13.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner13.png" class="img img-fluid mx-auto partner-logo" alt="Villervala Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner14.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner14.png" class="img img-fluid mx-auto partner-logo" alt="Petit Bateaul" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner15.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner15.png" class="img img-fluid mx-auto partner-logo" alt="Tentree logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_Advance/static/src/images/logos/partner16.png" class="img img-fluid mx-auto partner-logo" alt="" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner16.png" class="img img-fluid mx-auto partner-logo" alt="Timberland Logo" loading="lazy"/>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
 </template>
 <template id="place_into_page_content_patrner" inherit_id="website.snippets" name="Place into page partners">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_Advance.s_process_page_content_partners" t-thumbnail="/theme_Advance/static/src/images/logos/procces.png"/>
+        <t t-snippet="theme_pa.s_process_page_content_partners" t-thumbnail="/theme_pa/static/src/images/logos/procces.png"/>
     </xpath>
 </template>
 </odoo>
