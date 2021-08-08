@@ -1,50 +1,48 @@
 <odoo>
   
   <template id="s_aboutus_page_text_image" name="aboutus page text image">
-<section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_content_principles" data-name="aboutus page text image">
-        <div class="row align-items-center aboutus-page-c-one-part-1">
-          <div class="col-lg-6 o_cc o_cc1 bg-white aboutus-page-c-one-text1 o_colored_level" data-name="Box">
+<div class="row align-items-center aboutus-page-c-one-part-1">
+          <div class="col-md-6 o_cc o_cc1 bg-white aboutus-page-c-one-text1 o_colored_level" data-name="Box">
             <div class="row s_nb_column_fixed text-inside-content">
-              <p class="lead primary-paragraph o_default_snippet_text fontsize1"><span class="primary-heading fontsize2 o_default_snippet_text">We Are...</span><br/><br/>A full-service readymade garments manufacturing unit with expertise in children's. Mens's and Women's apparel products. Our industry experience, ability to quickly turn around orders of all size, dedication to quality, and ability to adapt to changng technology has made us the proud choicce of our clients.</p>
-              <p class="lead primary-paragraph o_default_snippet_text fontsize1">Our clients include private label manufactures and independent designers around the worls. Every product is manufactured by our highly skilled at our own facility.</p>
-              
+              <p class="lead primary-paragraph o_default_snippet_text fontsize1"><span class="primary-heading fontsize2 o_default_snippet_text">We Are...</span><br/><br/>A full-service ready made garments manufacturing unit with expertise in children's. Mens's and Women's apparel products. Our industry experience, ability to quickly turn around orders of all size, dedication to quality, and ability to adapt to changing technology has made us the proud choice of our clients.</p>
+              <p class="lead primary-paragraph o_default_snippet_text fontsize1">Our clients include private label manufactures and independent designers around the worlds. Every product is manufactured by our highly skilled at our own facility.</p>
+            </div>
           </div>
-          </div>
-          <div class="col-lg-6 aboutus-page-c-one-img-part">
+          <div class="col-md-6 aboutus-page-c-one-img-part o_colored_level">
             <picture>
-              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_n/static/src/images/PenguinApparel-Building-Web-View.png">
-                <source media="(min-width: 991px)" srcset="/theme_n/static/src/images/PenguinApparel-Building-Web-View.png">
-                  <source media="(max-width: 768px)" srcset="/theme_n/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
-                    <img class="img img-fluid mx-auto aboutus-page-c-one-img" src="/theme_n/static/src/images/PenguinApparel-Building-Web-View.png" alt="penguin_apparels Apparels Building Image"/>
-              </source>
-                </source>
-              </source>
-            </picture>   
-          </div>
-        </div>
-        <div class="row align-items-center aboutus-page-c-one-part-2">
-          <div class="col-lg-6 o_colored_level aboutus-page-c-one-img-part">
-            <picture>
-              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_n/static/src/images/Penguin-Workers-Tablet-View.jpg">
-                <source media="(min-width: 991px)" srcset="/theme_n/static/src/images/Penguin-Workers-Web-View.jpg">
-                  <source media="(max-width: 768px)" srcset="/theme_n/static/src/images/Penguin-Workers-Mobile-View.jpg">
-                    <img class="img img-fluid mx-auto aboutus-page-c-one-img" src="/theme_n/static/src/images/Penguin-Workers-Web-View.jpg" alt="penguin_apparels Apparels Building Image" loading="lazy"/>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                    <img class="img img-fluid mx-auto aboutus-page-c-one-img" src="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image" loading="lazy"/>
                   </source>
                 </source>
               </source>
             </picture>
           </div>
-          <div class="col-lg-6 aboutus-page-c-one-text2 bg-white o_cc o_cc1 pb32 o_colored_level" data-name="Box">
+        </div>
+        <div class="row align-items-center aboutus-page-c-one-part-2">
+          <div class="col-md-6 o_colored_level aboutus-page-c-one-img-part">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Mobile-View.jpg">
+                    <img class="img img-fluid mx-auto aboutus-page-c-one-img" src="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg" alt="Penguin Apparels Workers Image" loading="lazy"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+          </div>
+          <div class="col-md-6 aboutus-page-c-one-text2 bg-white o_cc o_cc1 pb32 o_colored_level" data-name="Box">
             <div class="row s_nb_column_fixed text-inside-content">
-              <p class="lead primary-paragraph o_default_snippet_text fontsize1"><span class="primary-heading o_default_snippet_text fontsize2">We Started ...</span><br/><br/>In the year 1990 as a small scale Industry and set up a readymade garment factory in 1991 with 40 sewing machines. We kept pace with latest development in sewing machinery industry and modernized the production line by indicating the latest machines at various stages. now the Company has over 1800 sewing machinery and other ancialiry equipment with our sister concerns m/s. Penguin Garments (P) Ltd and peacock Apparels (P) Ltd, a 100% Export Orient Unit.</p>
-             </div>
+              <p class="lead primary-paragraph o_default_snippet_text fontsize1"><span class="primary-heading o_default_snippet_text fontsize2">We Started ...</span><br/><br/>In the year 1990 as a small scale Industry and set up a ready made garment factory in 1991 with 40 sewing machines. We kept pace with latest development in sewing machinery industry and modernized the production line by indicating the latest machines at various stages. now the Company has over 1800 sewing machinery and other ancillary equipment with our sister concerns m/s. Penguin Garments (P) Ltd and peacock Apparels (P) Ltd, a 100% Export Orient Unit.</p>
+            </div>
           </div>
         </div>
       </section>
 </template>
 <template id="place_into_aboutus_first" inherit_id="website.snippets" name="Place into first">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_n.s_aboutus_page_text_image" t-thumbnail="/theme_n/static/src/images/logos/Inspect-Logo.png"/>
+        <t t-snippet="theme_pa.s_aboutus_page_text_image" t-thumbnail="/theme_pa/static/src/images/logos/Inspect-Logo.png"/>
     </xpath>
 </template>
   

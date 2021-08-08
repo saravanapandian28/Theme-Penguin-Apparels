@@ -1,45 +1,45 @@
 <odoo>
   
   <template id="s_content_aboutus_guiding" name="aboutus guiding principles">
-<section class="s_call_to_action o_cc space-between-contents guiding-principle">
+<section class="s_call_to_action o_cc space-between-contents guiding-principle o_colored_level" data-snippet="s_content_aboutus_guiding" data-name="aboutus guiding principles">
         <div class="centered-content pa-site-width">
-        <div class="col-lg-9 o_colored_level">
-             <h3 class="primary-heading pb16 fontsize2">Our Guiding Principles!</h3>
-              <p class="primary-paragraph fontsize1">To perform efficiency to exceed exceptations and to deliver quality products on time, every time, we strongly believe in our guiding principles</p>
-              </div>
-        <div class="row">
-            <div class="col-lg-4 guiding-principle-sections o_colored_level">
-            <img src="/theme_n/static/src/images/logos/hand.png" class="guiding-principle-sections-logo"/>
+          <div class="col-md-9 o_colored_level">
+            <h3 class="primary-heading pb16 fontsize2 o_default_snippet_text">Our Guiding Principles!</h3>
+            <p class="primary-paragraph fontsize1 o_default_snippet_text">To perform efficiency to exceed expectations and to deliver quality products on time, every time, we strongly believe in our guiding principles</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/hand.png" class="guiding-principle-sections-logo" alt="Hand png" loading="lazy"/>
               <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Trust</h3>
               <p class="primary-paragraph o_default_snippet_text fontsize1">Be honest, transparent and act consistently trust</p>
             </div>
-            <div class="col-lg-4 guiding-principle-sections o_colored_level">
-            <img src="/theme_n/static/src/images/logos/ethics.png" class="guiding-principle-sections-logo"/>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/ethics.png" class="guiding-principle-sections-logo" alt="Ethics png" loading="lazy"/>
               <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Ethics</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">Conduct business through ethical governance adopting eco-freinedly practices and in compliance with legal and statutory laws</p>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Conduct business through ethical governance adopting eco-friendly practices and in compliance with legal and statutory laws</p>
             </div>
-            <div class="col-lg-4 guiding-principle-sections o_colored_level">
-            <img src="/theme_n/static/src/images/logos/team.png" class="guiding-principle-sections-logo"/>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/team.png" class="guiding-principle-sections-logo" alt="Team logo png" loading="lazy"/>
               <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Team Work</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">Foster team environment, respect freedom at work, drive for results and grow togather</p>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Foster team environment, respect freedom at work, drive for results and grow together</p>
             </div>
-            <div class="col-lg-4 guiding-principle-sections o_colored_level">
-            <img src="/theme_n/static/src/images/logos/Shirt-Logo.png" class="guiding-principle-sections-logo"/>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/Shirt-Logo.png" class="guiding-principle-sections-logo" alt="Shirt logo Png" loading="lazy"/>
               <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Premium Quality</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">Consistently provide premium quality product , service and imformation to our customers and bussiness partners</p>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Consistently provide premium quality product , service and information to our customers and business partners</p>
             </div>
-            <div class="col-lg-4 guiding-principle-sections o_colored_level">
-            <img src="/theme_n/static/src/images/logos/target.png" class="guiding-principle-sections-logo"/>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/target.png" class="guiding-principle-sections-logo" alt="Target Logo" loading="lazy"/>
               <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Efficiency</h3>
-              <p class="primary-paragraph o_default_snippet_text fontsize1">Perform Efficiency to exceed exceptations, take ownerships and be responsive to deliver quality and value on-time, every time</p>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Perform Efficiency to exceed expectations, take ownerships and be responsive to deliver quality and value on-time, every time</p>
             </div>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
 </template>
 <template id="place_into_guiding_p" inherit_id="website.snippets" name="Place into guiding principles">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_n.s_content_aboutus_guiding" t-thumbnail="/theme_n/static/src/images/logos/Inspect-Logo.png"/>
+        <t t-snippet="theme_pa.s_content_aboutus_guiding" t-thumbnail="/theme_pa/static/src/images/logos/Inspect-Logo.png"/>
     </xpath>
 </template>
 
