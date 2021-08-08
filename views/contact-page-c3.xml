@@ -1,30 +1,36 @@
 <template id="s_content_contact_address" name="contecnt contact address">
 
-  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
-        <div class="pa-site-width">
-          <div class="row align-items-center">
-            <div class="col-lg-6 pt16 pb16 o_colored_level">
-            <h2 class="primary-heading fontsize2">Registered Office</h2>
-            </div>
-            <div class="col-lg-6 pt16 pb16 o_colored_level">
-            <p class="primary-paragraph fontsize1">No.2, Meenakshi Nagar,
+   <section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_content_contact_address" data-name="contecnt contact address">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <h2 class="primary-heading fontsize2 o_default_snippet_text">Registered Office</h2>
+              </div>
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <p class="primary-paragraph fontsize1 o_default_snippet_text">No.2, Meenakshi Nagar,
             G.S.T road, Pasumalai,
             Madurai - 625004
             TAMILNADU, INDIA</p>
+              </div>
             </div>
-          </div>
-          <div class="row align-items-center">
-          <div class="col-lg-6 pt16 pb16 o_colored_level">
-            <h2 class="primary-heading fontsize2">Factory Address</h2>
-            </div>
-            <div class="col-lg-6 pt16 pb16 o_colored_level">
-            <p class="primary-paragraph fontsize1">D-53, Industrial Estate, Kappalur,
+            <div class="row align-items-center">
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <h2 class="primary-heading fontsize2 o_default_snippet_text">Factory Address</h2>
+              </div>
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <p class="primary-paragraph fontsize1 o_default_snippet_text">D-53, Industrial Estate, Kappalur,
             H-12, Industrial Estate, Kappalur,
             Madurai - 625008
             TAMILNADU, INDIA</p>
+              </div>
             </div>
-            </div>
-        </div>
-      </section>
+          </div>
+        </section>
+</template>
 
+<template id="place_into_contactdetail" inherit_id="website.snippets" name="Place into contactdetails">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_content_contact_address"
+                t-thumbnail="/theme_pa/static/src/images/logos/folded.png"/>
+    </xpath>
 </template>
