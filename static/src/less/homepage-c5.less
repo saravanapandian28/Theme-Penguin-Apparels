@@ -1,0 +1,54 @@
+
+//for content-5 process lists
+.image-row{
+    padding: 0;
+    padding-right: 10px;
+}
+
+.image-container{
+    margin-bottom: -15px;
+    background-color: @base-color;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+    .texton-image{
+        object-fit: cover;
+        opacity: 0.5;
+    }
+    .image_text{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+}
+.process-content-audit{
+    padding: 30px 0;
+}
+.process-content-mobile{
+    display: none;
+}
+@media(max-width:1080px){
+    .process-content-audit{
+        padding: 15px 0;
+    }
+}
+
+@media(max-width:770px){
+    .process-content-audit{
+        width: 120px;
+    }
+    .process-content-web{
+        display: none;
+    }
+    .process-text-center{
+        text-align: center;
+    }
+    .process-content-mobile{
+        display: block;
+        margin-bottom: 30px;
+        .primary-btn{
+            bottom: 10px;
+        }
+    }
+}

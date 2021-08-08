@@ -1,0 +1,76 @@
+//homepage content 2
+
+.vission{
+    &-block-a{
+        &1{
+            width: 65%;
+            left: 6%;
+            bottom: 50%;
+            z-index: 2;
+            position: absolute;
+        }
+        &2{
+            z-index: 0;
+        }
+    }
+    &-block-b{
+        margin: auto;
+        margin-top: -16%;
+        width: 75%;
+        position: relative;
+        img{
+            height: 350px;
+            opacity: 0.4;
+            object-fit: cover;
+        }
+        &1{
+            position: absolute;
+            width: 65%;
+            left: 10%;
+            bottom: 20%;
+        }
+    }
+}
+@media(max-width:992px){
+    .vission{
+        &-block-a{
+            &1{
+                padding: 0;
+            }
+            }
+        }
+}
+@media(max-width:770px){
+    .vission{
+        width: 100%;
+        &-bg{
+            background: url('/theme_pa/static/src/images/Striching-Machine-Tablet-View.jpg');
+            background-size: cover;
+            padding: 30px;
+        }
+            &-block-a{
+                padding-left: -50px;
+                &1{
+                    padding: 20px;
+                    width: 100%;
+                    position: static;
+                    left: 0;
+                    bottom: 0;
+                }
+                &2{
+                    display: none;
+            }
+        }
+        &-block-b{
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            &1{
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                left: 0;
+            }
+        }
+    }
+}
