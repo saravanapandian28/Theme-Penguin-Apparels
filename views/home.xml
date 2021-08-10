@@ -1,0 +1,419 @@
+
+<odoo>
+ <template id="theme_pa.new_homepage" inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+          <div id="wrap" class="oe_structure">
+      <section class="s_homepage_summary space-between-contents o_colored_level" data-snippet="s_homepage_summary" data-name="Company summary">
+        <div class="pa-site-width ">
+          <div class="pt8 pb8">
+            <p class="primary-paragraph centered-content o_default_snippet_text">Since 1990</p>
+            <h1 class="primary-heading pt16 pb16 centered-content sizeof-content-one o_default_snippet_text">Garmenting Solution For Generation </h1>
+            <p class="primary-paragraph centered-content o_default_snippet_text">we are One of the leading apparels manufactures in india, producing high quality garments for our customers. We offer a full scale manufacturing solution including a range of services</p>
+          </div>
+        </div>
+      </section>
+      <section class="o_colored_level p-0 space-between-contents centered-content vission" data-snippet="s_homepage_principles" data-name="content principles">
+        <div class="pa-site-width">
+          <div class="row align-item-center justify-content-end  vission-block-a">
+            <div class="vission-bg o_colored_level">
+              <div class="bg-200 o_colored_level vission-block-a1">
+                <p class="lead p-5 pb24 pt24 primary-paragraph fontsize1 o_default_snippet_text"><span class="primary-heading fontsize2 o_default_snippet_text">Our Vissions</span><br/><br/>To be the World class Plant Producing Best-quality of ready made garments at optimum cost in an eco-friendly, safe and healthy environment<br/><br/>We will learn our customs enthusiasm by Providing the best customer experience through our performance and continuos improvement driven by integrity, teamwork and innovation</p>
+              </div>
+            </div>
+            <div class="pt16 pb16 o_colored_level vission-block-a2">
+              <picture>
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Stretching-Machine-Web-View.png">
+                  <img src="/theme_pa/static/src/images/Stretching-Machine-Web-View.png" class="float-right img img-fluid mx-auto p-0" loading="lazy" data-original-title="" title="" alt="stretching machine image" aria-describedby="tooltip83656" width="90%"/>
+                </source>
+              </picture>
+            </div>
+          </div>
+          <div class="blue-layer-image vission-block-b">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Mobile-View.jpg">
+                    <img src="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg" class="w-100 m-0 p-0" loading="lazy" data-original-title="" title="" alt="Penguin Apparels Workers image" aria-describedby="tooltip83656"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+            <div class="vission-block-b1 justify-content-center">
+              <h1 class="primary-heading text-white fontsize2 pb32 o_default_snippet_text">Our Guiding Principles</h1>
+              <p class="lead primary-paragraph text-white fontsize1 pb32 o_default_snippet_text">To perform to exceed and to deliver best quality products on time, We strongly believe in pour guiding principles</p>
+              <a href="#" style="border-color:#fff;" class="primary-button text-white o_default_snippet_text">View All</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_features o_colored_level space-between-contents" data-snippet="s_content_products" data-name="homepage products">
+        <div class="pa-site-width">
+          <div class="row">
+            <div class="col-md-9 pb16 o_colored_level">
+              <h3 class="primary-heading o_default_snippet_text fontsize2 centered-content">Products That We Offers</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1 centered-content">It is With High Skill and almost attention to detail, we deliver a wide variety of Products in every segment we cater to. We are trusted by some of the biggest Brands in the apparel world</p>
+            </div>
+            <div class="col-md-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="#" class="primary-button o_default_snippet_text">Full Gallery</a>
+              </p>
+            </div>
+          </div>
+          <div class="row products-view">
+            <div class="col-md-4 pt32 pb32 text-center o_colored_level productandtext">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Womens-Wear-Tablet-View.png">
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Womens-Wear-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Womens-Wear-Mobile-View.png">
+                      <img class="content-product-image" src="/theme_pa/static/src/images/Womens-Wear-Web-View.png" alt="Womens Wear image" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+              <h3 class="fontsize3">
+                <u class="o_default_snippet_text">
+                  <br/>
+                </u>
+              </h3>
+              <h3 class="fontsize3">
+                <u class="o_default_snippet_text">Womens Wear</u>
+              </h3>
+            </div>
+            <div class="col-md-4 pt32 pb32 text-center o_colored_level productandtext">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Kids-wear-Tablet-View.png">
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Kids-Wear-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Kids-Wear-Mobile-View.png">
+                      <img class="content-product-image" src="/theme_pa/static/src/images/Kids-Wear-Web-View.png" alt="Kids Wear image" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+              <h3 class="primary-heading">
+                <br/>
+              </h3>
+              <h3 class="fontsize3">
+                <u>
+                  <br/>
+                </u>
+              </h3>
+              <h3 class="fontsize3">
+                <u class="o_default_snippet_text">Kids Wear</u>
+              </h3>
+            </div>
+            <div class="col-md-4 pt32 pb32 text-center o_colored_level productandtext">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Tablet-View.png">
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Mens-Wear-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Mens-Wear-Mobile-View.png">
+                      <img class="content-product-image" src="/theme_pa/static/src/images/Mens-Wear-Web-View.png" alt="Mens Wear Image" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+              <h3 class="fontsize3">
+                <u>
+                  <br/>
+                </u>
+              </h3>
+              <h3 class="fontsize3">
+                <u class="o_default_snippet_text">Mens Wear</u>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="centered-content space-between-contents quality-list s_call_to_action o_cc o_colored_level" data-snippet="s_homepage_quality_list" data-name="content quality list">
+        <div class="pa-site-width ">
+          <div class="row quality-list-c1">
+            <div class="col-md-9 pb16 o_colored_level">
+              <h3 class="primary-heading fontsize2 o_default_snippet_text">Why are we That Special?</h3>
+            </div>
+            <div class="col-md-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-button o_default_snippet_text">Send Enquiry</a>
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6 o_colored_level">
+              <div class="blue-layer-image content-quality-list-img">
+                <picture>
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png">
+                    <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                      <img class="img-fluid" src="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image" loading="lazy"/>
+                    </source>
+                  </source>
+                </picture>
+                <div class="textin-image">
+                  <h3 class="primary-heading fontsize2 text-center text-white o_default_snippet_text">Why are we That Special?</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pt16 pb16 o_colored_level content_quality_list primary-heading">
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/nedle.png" loading="lazy" alt="Needle Logo"/>
+                </li>
+                <li class="o_default_snippet_text"> Design and Development</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/procces.png" loading="lazy" alt="shirt logo"/>
+                </li>
+                <li class="o_default_snippet_text"> Flexible and Minimums</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/folded.png" loading="lazy" alt="cloth logo"/>
+                </li>
+                <li class="o_default_snippet_text"> Fabric Sourcing and Development</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Inspect-Logo.png" loading="lazy" alt="inspect logo"/>
+                </li>
+                <li class="o_default_snippet_text"> Prototyping and Samplings</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/shirt.png" loading="lazy" alt="shirt logo image"/>
+                </li>
+                <li class="o_default_snippet_text"> Pattern development</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/timekeep.png" alt="Time logo" loading="lazy"/>
+                </li>
+                <li class="o_default_snippet_text"> Quick Order Fullfillment</li>
+              </ul>
+              <ul class="two_in_row primary-heading fontsize4">
+                <li>
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/protection.png" alt="protection logo" loading="lazy"/>
+                </li>
+                <li class="o_default_snippet_text"> Trusted Quality Standards</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 pt8 o_colored_level quality-list-c2">
+          <p class="centered-content">
+            <a href="/contactus" class="primary-button o_default_snippet_text">Send Enquery</a>
+          </p>
+        </div>
+      </section>
+      <section class="process-text-center space-between-contents s_call_to_action o_cc o_colored_level" data-snippet="s_homepage_process_list" data-name="content process list">
+        <div class="pa-site-width ">
+          <div class="row">
+            <div class="col-md-9 pb16 o_colored_level">
+              <h3 class="primary-heading fontsize2 process-text-center o_default_snippet_text">Process Diversity</h3>
+            </div>
+            <div class="col-md-3 pt8 pb8 process-content-web o_colored_level">
+              <p style="float:right;">
+                <a href="/contactus" class="primary-button o_default_snippet_text">Contact Now</a>
+              </p>
+            </div>
+            <div class="col-md-6 pt16 pb16 o_colored_level process-text-center">
+              <p class="primary-paragraph fontsize1 o_default_snippet_text">We are going to launch a rocket to space soon. Just Kidding! But Seriously We can Make wonders with our diverse pool of Machinery. We use latest generation machinery to produce premium quality products.</p>
+              <section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_dots space-between-contents o_colored_level o_slideshow process-content-mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="process page content excellence">
+                <div class="container">
+                  <div id="slideshow_1628436810662" class="carousel slide" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
+                    <div class="carousel-inner" style="padding: 0;">
+                      <div class="carousel-item active" style="">
+                        <img class="img img-fluid d-block" src="/theme_pa/static/src/images/cutting.jpg" style="" alt="Cutting Proccess" data-name="Image" data-index="0" loading="lazy"/>
+                      </div>
+                      <div class="carousel-item undefined" style="">
+                        <img class="img img-fluid d-block " src="/theme_pa/static/src/images/stretch.jpg" style="" alt=" stretching image" data-name="Image" data-index="1" loading="lazy"/>
+                      </div>
+                      <div class="carousel-item undefined" style="">
+                        <img class="img img-fluid d-block " src="/theme_pa/static/src/images/embroidery.jpg" style="" alt="Embroidery image" data-name="Image" data-index="2" loading="lazy"/>
+                      </div>
+                      <div class="carousel-item undefined" style="">
+                        <img class="img img-fluid d-block " src="/theme_pa/static/src/images/quilting.jpg" style="" alt="Quilting Image" data-name="Image" data-index="2" loading="lazy"/>
+                      </div>
+                      <div class="carousel-item undefined" style="">
+                        <img class="img img-fluid d-block " src="/theme_pa/static/src/images/filling.jpg" style="" alt="Filling Image" data-name="Image" data-index="2" loading="lazy"/>
+                      </div>
+                      <div class="carousel-item undefined" style="">
+                        <img class="img img-fluid d-block " src="/theme_pa/static/src/images/washing.png" style="" alt="Washing Machine image" data-name="Image" data-index="2" loading="lazy"/>
+                      </div>
+                      <div class="carousel-item undefined" style="">
+                        <img class="img img-fluid d-block " src="/theme_pa/static/src/images/pressing.png" style="" alt="Pressing Image" data-name="Image" data-index="2" loading="lazy"/>
+                      </div>
+                    </div>
+                    <ul class="carousel-indicators">
+                      <li class="o_indicators_left text-center d-none" aria-label="Previous" title="Previous">
+                        <i class="fa fa-chevron-left"/>
+                      </li>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="0" class="active"/>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="1"/>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="2"/>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="3"/>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="4" class="d-none"/>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="5" class="d-none"/>
+                      <li data-target="#slideshow_1628436810662" data-slide-to="6" class="d-none"/>
+                      <li class="o_indicators_right text-center" aria-label="Next" title="Next">
+                        <i class="fa fa-chevron-right"/>
+                      </li>
+                    </ul>
+                    <a class="carousel-control-prev o_we_no_overlay" href="#slideshow_1628436810662" data-slide="prev" aria-label="Previous" title="Previous">
+                      <span class="fa fa-chevron-left fa-2x text-white"/>
+                      <span class="sr-only o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_we_no_overlay" href="#slideshow_1628436810662" data-slide="next" aria-label="Next" title="Next">
+                      <span class="fa fa-chevron-right fa-2x text-white" data-original-title="" title="" aria-describedby="tooltip794024"/>
+                      <span class="sr-only o_default_snippet_text">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <h6 class="fontsize1 pt16">
+                <b class="o_default_snippet_text">And we completely audit our product by</b>
+              </h6>
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4 process-content-audit text-center o_colored_level">
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Raw-Matirel-Logo.png" alt="Raw material logo" loading="lazy"/>
+                  <h3 class="primary-paragraph fontsize5 o_default_snippet_text">Raw Material inspection and testing</h3>
+                </div>
+                <div class="col-md-4 process-content-audit text-center o_colored_level">
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Fabric-Logo.png" loading="lazy" alt="Fabric logo"/>
+                  <h3 class="primary-paragraph fontsize5 o_default_snippet_text">Fusing bond strength testing</h3>
+                </div>
+                <div class="col-md-4 process-content-audit text-center o_colored_level">
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Testing-Loigo.png" loading="lazy" alt="Testing Logo"/>
+                  <h3 class="primary-paragraph fontsize5 o_default_snippet_text">Fastener pull strength testing</h3>
+                </div>
+                <div class="col-md-4 process-content-audit text-center o_colored_level">
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Metal-Logo.png" loading="lazy" alt="Metal Logo"/>
+                  <h3 class="primary-paragraph fontsize5 o_default_snippet_text">Metal Deletion test</h3>
+                </div>
+                <div class="col-md-4 process-content-audit text-center o_colored_level">
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Inspect-Logo.png" loading="lazy" alt="Inspect Logo"/>
+                  <h3 class="primary-paragraph fontsize5 o_default_snippet_text">In Progress Inspection</h3>
+                </div>
+                <div class="col-md-4 process-content-audit text-center o_colored_level">
+                  <img class="logo-size" src="/theme_pa/static/src/images/logos/Shirt-Logo.png" alt="Shirt Logo" loading="lazy"/>
+                  <h3 class="primary-paragraph fontsize5 o_default_snippet_text">Finished product inspection</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pt16 pb16 o_colored_level process-content-web">
+              <div class="row s_nb_column_fixed">
+                <div class="o_masonry_col o_snippet_not_selectable col-md-4 image-row">
+                  <div class="image-container">
+                    <img class="img img-fluid d-block texton-image" src="/theme_pa/static/src/images/Stretching-Machine-Web-View.png" alt="Washing Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Stretching</div>
+                  </div>
+                  <br/>
+                  <div class="image-container">
+                    <img class="img img-fluid d-block texton-image" src="/theme_pa/static/src/images/Filling-Machine-Web-View.jpg" alt="Filling Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Filling</div>
+                  </div>
+                  <br/>
+                  <div class="image-container">
+                    <img class="img img-fluid d-block texton-image" src="/theme_pa/static/src/images/Cutting-Machine-Web-View.jpg" alt="Cutting Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Cutting</div>
+                  </div>
+                </div>
+                <div class="o_masonry_col o_snippet_not_selectable col-md-4 image-row">
+                  <div class="image-container">
+                    <img class="img w-100 img-fluid d-block texton-image" src="/theme_pa/static/src/images/pressing.png" alt="Pressing Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Pressing</div>
+                  </div>
+                  <br/>
+                  <div class="image-container">
+                    <img class="img img-fluid d-block texton-image" src="/theme_pa/static/src/images/Quilting-Machine-Web-View.jpg" alt="Quilting Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Quilting</div>
+                  </div>
+                </div>
+                <div class="o_masonry_col o_snippet_not_selectable col-md-4 image-row">
+                  <div class="image-container">
+                    <img class="img img-fluid d-block texton-image" src="/theme_pa/static/src/images/Sewing-Machine-Web-View.jpg" alt="Sewing Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Sewing</div>
+                  </div>
+                  <br/>
+                  <div class="image-container">
+                    <img class="img img-fluid d-block texton-image" src="/theme_pa/static/src/images/Washing-Machine-Web-View.png" alt="Washing Machine Image" loading="lazy"/>
+                    <div class="image_text o_default_snippet_text">Washing</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="centered-content space-between-contents s_call_to_action o_cc o_colored_level content-ecosystem pb120" data-snippet="s_content_company_ecosystem" data-name="content Company EcoSystem">
+        <div class=" pa-site-width">
+          <div class="col-md-9 pb64 o_colored_level">
+            <h3 class="primary-heading fontsize2 centered-content o_default_snippet_text">We envision better living for the ecosystem!</h3>
+            <p class="primary-paragraph fontsize1 centered-content">We are pioneers in the industry in taking of the well being of our Employee and the well being of the ecological and social environment we operate in.</p>
+          </div>
+          <div class="ecosystem-container">
+            <div class="ecosystem-container1 tog-left">
+              <img src="/theme_pa/static/src/images/Environment-Awarness-Web-View.png" alt="Environment Awareness Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile pt16 o_default_snippet_text">Environment Awareness</div>
+            </div>
+            <div class="ecosystem-container2 tog-left">
+              <img src="/theme_pa/static/src/images/Energy-Managment-Web-View.png" alt="Energy Management Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile pt16 o_default_snippet_text">Energy Management</div>
+            </div>
+            <div class="ecosystem-container3 tog-left">
+              <img src="/theme_pa/static/src/images/Employee-Training-Web-View.png" alt="Employee Training Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile pt16">Employee Engagement&amp;nbsp;&amp;nbsp; <br/></div>
+            </div>
+            <div class="ecosystem-container4 tog-left">
+              <img src="/theme_pa/static/src/images/Project-Community-Web-View.png" alt="Project Community Image" loading="lazy"/>
+              <div class="ecosystem-container-mobile fontsize3 primary-heading pt16 text-center">&amp;nbsp;&amp;nbsp;&amp;nbsp; Community Projects </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="centered-content space-between-contents s_call_to_action o_cc o_colored_level" data-snippet="s_homepage_company_built" data-name="content Company Built">
+        <div class=" pa-site-width">
+          <div class="col-md-6 pb32 o_colored_level">
+            <h3 class="primary-heading fontsize2">We Care as We Built</h3>
+            <p class="primary-paragraph fontsize1 o_default_snippet_text">This world is for everyone and we ensure we respect resources and we are certified social friendly as we built these wonderful products for you</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 pt32 pb32 text-center o_colored_level">
+              <p class="primary-paragraph fontsize1 o_default_snippet_text">GREEN BUILDING GOLD RATING by</p>
+              <h3 class="primary-heading fontsize4 o_default_snippet_text"> LEED AND IGBC</h3>
+            </div>
+            <div class="col-md-4 pt32 pb32 text-center o_colored_level">
+              <p class="primary-paragraph fontsize1 o_default_snippet_text">WATER HARVEST WITH</p>
+              <h3 class="primary-heading fontsize4 o_default_snippet_text">RWH <span class="primary-paragraph fontsize3 o_default_snippet_text">system</span></h3>
+            </div>
+            <div class="col-md-4 pt32 pb32 text-center o_colored_level">
+              <p class="primary-paragraph fontsize1 o_default_snippet_text">ENERGY CONVERSION</p>
+              <h3 class="primary-heading fontsize4 o_default_snippet_text">SOLAR-PV <span class="primary-paragraph fontsize3 o_default_snippet_text">system</span></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="centered-content pt32 s_call_to_action o_cc o_colored_level" data-snippet="s_homepage_foot_banner" data-name="foot banner">
+        <div class="pa-site-width">
+          <div class="row pb16">
+            <div class="col-md-9 pb16 o_colored_level">
+              <h3 class="primary-heading fontsize2 centered-content o_default_snippet_text">We ship to 26+ Countries as We are talking</h3>
+            </div>
+            <div class="col-md-3 pt8 o_colored_level">
+              <a href="/contactus" class="primary-button centered-content o_default_snippet_text">Talk to us</a>
+            </div>
+          </div>
+        </div>
+        <div class="pt16  w-100">
+          <picture>
+            <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Footer-Banner-Tablet-View.jpg">
+              <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Footer-Banner-Web_View.png">
+                <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Footer-Banner-Tablet-View.jpg">
+                  <img src="/theme_pa/static/src/images/Footer-Banner-Web_View.png" alt="Cutting Cloth image" loading="lazy" width="100%"/>
+                </source>
+              </source>
+            </source>
+          </picture>
+        </div>
+      </section>
+          </div>
+        </xpath>
+    </template>
+</odoo>
