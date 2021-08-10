@@ -1,0 +1,185 @@
+<odoo>
+<record id="aboutus" model="ir.ui.view">
+            <field name="name">About Us</field>
+            <field name="type">qweb</field>
+            <field name="key">website.aboutus</field>
+            <field name="arch" type="xml">
+                <t name="About us" t-name="website.aboutus">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                            <div class="oe_structure">
+                             <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_content_principles" data-name="aboutus page text image">
+        <div class="row align-items-center aboutus-page-c-one-part-1">
+          <div class="col-md-6 o_cc o_cc1 bg-white aboutus-page-c-one-text1 o_colored_level" data-name="Box">
+            <div class="row s_nb_column_fixed text-inside-content">
+              <p class="lead primary-paragraph o_default_snippet_text fontsize1"><span class="primary-heading fontsize2 o_default_snippet_text">We Are...</span><br/><br/>A full-service ready made garments manufacturing unit with expertise in children's. Mens's and Women's apparel products. Our industry experience, ability to quickly turn around orders of all size, dedication to quality, and ability to adapt to changing technology has made us the proud choice of our clients.</p>
+              <p class="lead primary-paragraph o_default_snippet_text fontsize1">Our clients include private label manufactures and independent designers around the worlds. Every product is manufactured by our highly skilled at our own facility.</p>
+            </div>
+          </div>
+          <div class="col-md-6 aboutus-page-c-one-img-part o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                    <img class="img img-fluid mx-auto aboutus-page-c-one-img" src="/theme_pa/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image" loading="lazy"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+          </div>
+        </div>
+        <div class="row align-items-center aboutus-page-c-one-part-2">
+          <div class="col-md-6 o_colored_level aboutus-page-c-one-img-part">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Mobile-View.jpg">
+                    <img class="img img-fluid mx-auto aboutus-page-c-one-img" src="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg" alt="Penguin Apparels Workers Image" loading="lazy"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+          </div>
+          <div class="col-md-6 aboutus-page-c-one-text2 bg-white o_cc o_cc1 pb32 o_colored_level" data-name="Box">
+            <div class="row s_nb_column_fixed text-inside-content">
+              <p class="lead primary-paragraph o_default_snippet_text fontsize1"><span class="primary-heading o_default_snippet_text fontsize2">We Started ...</span><br/><br/>In the year 1990 as a small scale Industry and set up a ready made garment factory in 1991 with 40 sewing machines. We kept pace with latest development in sewing machinery industry and modernized the production line by indicating the latest machines at various stages. now the Company has over 1800 sewing machinery and other ancillary equipment with our sister concerns m/s. Penguin Garments (P) Ltd and peacock Apparels (P) Ltd, a 100% Export Orient Unit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_call_to_action o_cc space-between-contents guiding-principle o_colored_level" data-snippet="s_content_aboutus_guiding" data-name="aboutus guiding principles">
+        <div class="centered-content pa-site-width">
+          <div class="col-md-9 o_colored_level">
+            <h3 class="primary-heading pb16 fontsize2 o_default_snippet_text">Our Guiding Principles!</h3>
+            <p class="primary-paragraph fontsize1 o_default_snippet_text">To perform efficiency to exceed expectations and to deliver quality products on time, every time, we strongly believe in our guiding principles</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/hand.png" class="guiding-principle-sections-logo" alt="Hand png" loading="lazy"/>
+              <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Trust</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Be honest, transparent and act consistently trust</p>
+            </div>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/ethics.png" class="guiding-principle-sections-logo" alt="Ethics png" loading="lazy"/>
+              <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Ethics</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Conduct business through ethical governance adopting eco-friendly practices and in compliance with legal and statutory laws</p>
+            </div>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/team.png" class="guiding-principle-sections-logo" alt="Team logo png" loading="lazy"/>
+              <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Team Work</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Foster team environment, respect freedom at work, drive for results and grow together</p>
+            </div>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/Shirt-Logo.png" class="guiding-principle-sections-logo" alt="Shirt logo Png" loading="lazy"/>
+              <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Premium Quality</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Consistently provide premium quality product , service and information to our customers and business partners</p>
+            </div>
+            <div class="col-md-4 guiding-principle-sections o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/target.png" class="guiding-principle-sections-logo" alt="Target Logo" loading="lazy"/>
+              <h3 class="primary-heading pt8 pb8 o_default_snippet_text fontsize2">Efficiency</h3>
+              <p class="primary-paragraph o_default_snippet_text fontsize1">Perform Efficiency to exceed expectations, take ownerships and be responsive to deliver quality and value on-time, every time</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="space-between-contents bg-200 o_colored_level" data-snippet="s_content_aboutus_export" data-name="company export details">
+        <div class=" export-detail">
+          <div class="pa-site-width">
+            <div class="row centered-content">
+              <div class="col-md-4 o_colored_level export-detail-c">
+                <h3 class="primary-heading pb16 o_default_snippet_text fontsize7">$51.8 M</h3>
+                <p class="light-font o_default_snippet_text fontsize5 export-detail-head">GARMENTS EXPORTS</p>
+                <p class="primary-subtitle o_default_snippet_text fontsize3">Years 2016 - 2018</p>
+              </div>
+              <div class="col-md-4 o_colored_level export-detail-c">
+                <h3 class="primary-heading pb16 o_default_snippet_text fontsize7">100+</h3>
+                <p class="light-font o_default_snippet_text fontsize5 export-detail-head">CLIENTS</p>
+                <p class="primary-subtitle o_default_snippet_text fontsize3 export-detail-head">Across The Globe</p>
+              </div>
+              <div class="col-md-4 o_colored_level export-detail-c">
+                <h3 class="primary-heading pb16 o_default_snippet_text fontsize7">1000+</h3>
+                <p class="light-font o_default_snippet_text fontsize5 export-detail-head">EXPORTS</p>
+                <p class="primary-subtitle o_default_snippet_text fontsize3">All Location</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_website_form centered-content space-between-contents o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Collaborate form">
+        <div class="container collaborate-form">
+          <div class="row align-items-center">
+            <div class="col-md-4 form-c1 o_colored_level">
+              <h1 class="fontsize2 primary-heading o_default_snippet_text">Send us Your Message<br/></h1>
+              <p class="fontsize1 primary-paragraph pt32 o_default_snippet_text">Be it enquiries, feedback or order requirements. write to us and we will get back you instantly.<br/></p>
+            </div>
+            <div class="col-md-8 form-c2 o_colored_level">
+              <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
+                <div class="s_website_form_rows row s_col_no_bgcolor">
+                  <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="char" data-name="Field">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                      <div class="form-c2-fill col-sm">
+                        <input type="text" class="form-control s_website_form_input bg-200" name="Your Name" placeholder="Your Name" required="1" id="5zl5pu1zulv"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group s_website_form_field col-12  s_website_form_model_required  " data-type="email" data-name="Field">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                      <div class="form-c2-fill col-sm">
+                        <input type="email" class="form-control s_website_form_input bg-200" placeholder="Your E-mail Address" name="email_from" required="true" id="vkav4r3hsfp"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="text" data-name="Field">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                      <div class="col-sm form-c2-fill">
+                        <textarea class="form-control s_website_form_input  bg-200" name="Your Question" placeholder="Drop us a messages here..." required="1" id="6rp2idnyd1o" rows="3"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group s_website_form_field col-12    s_website_form_dnone" data-name="Field">
+                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                      <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px">
+                        <span class="s_website_form_label_content"/>
+                        <span title="Separate email addresses with a comma.">
+                          <i class="fa fa-info-circle"/>
+                        </span>
+                      </label>
+                      <div class="col-sm">
+                        <input type="hidden" class="form-control s_website_form_input" name="email_to" value="info@yourcompany.example.com"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                    <div class="s_website_form_label"/>
+                    <a href="#" role="button" class="primary-button s_website_form_send o_default_snippet_text">Submit</a>
+                    <span id="s_website_form_result"/>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+                        </div>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        <record id="aboutus_page" model="website.page">
+        <field name="name">About Us</field>
+            <field name="url">/aboutus</field>
+            <field name="is_published">True</field>
+            <field name="view_id" ref="aboutus"/>
+            <field name="cache_key_expr">('cached' if not request.params else None,)</field>
+            <field name="track">True</field>
+        </record>
+        <record id="menu_aboutus" model="website.menu">
+            <field name="name">About Us</field>
+            <field name="url">/aboutus</field>
+            <field name="page_id" ref="aboutus_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">59</field>
+        </record>
+
+</odoo>
