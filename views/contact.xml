@@ -1,0 +1,131 @@
+
+<odoo>
+ <template id="theme_pa.new_contactus" inherit_id="website.contactus">
+        <xpath expr="//div[@id='wrap']" position="replace">
+          <div id="wrap" class="oe_structure">
+           <section class="s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_contact_banner" data-name="contact banner">
+          <div class="small-banner blue-layer-image">
+            <img class="w-100" src="/theme_pa/static/src/images/contact-banner.jpg" alt="Penguin Apparels Office" loading="lazy"/>
+            <div class="small-banner-text centered-content">
+              <h1 class="primary-heading fontsize2 pb64 pt64 text-white o_default_snippet_text">Contact Us Now</h1>
+            </div>
+          </div>
+        </section>
+        <section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_content_contact_address" data-name="contecnt contact address">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <h2 class="primary-heading fontsize2 o_default_snippet_text">Registered Office</h2>
+              </div>
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <p class="primary-paragraph fontsize1 o_default_snippet_text">No.2, Meenakshi Nagar,
+            G.S.T road, Pasumalai,
+            Madurai - 625004
+            TAMILNADU, INDIA</p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <h2 class="primary-heading fontsize2 o_default_snippet_text">Factory Address</h2>
+              </div>
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <p class="primary-paragraph fontsize1 o_default_snippet_text">D-53, Industrial Estate, Kappalur,
+            H-12, Industrial Estate, Kappalur,
+            Madurai - 625008
+            TAMILNADU, INDIA</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns centered-content space-between-contents o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="conatact view">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card border h-100">
+                  <div class="card-body">
+                    <h2 class="primary-heading fontsize4 o_default_snippet_text">Phone</h2>
+                    <p class="primary-paragraph fontsize1 o_default_snippet_text">Office:+91 452-2372377/2372477</p>
+                    <p class="primary-paragraph fontsize1 o_default_snippet_text">Factory:+91 452-2482973/2482793</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card border h-100">
+                  <div class="card-body">
+                    <h2 class="primary-heading fontsize4 o_default_snippet_text">Email</h2>
+                    <p class="primary-paragraph fontsize1 o_default_snippet_text">anbukani@penguinapparelsapparels.com</p>
+                    <p class="primary-paragraph fontsize1 o_default_snippet_text">manivannan@penguinapparelsapparels.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card border h-100">
+                  <div class="card-body">
+                    <h2 class="primary-heading fontsize4 o_default_snippet_text">Fax</h2>
+                    <p class="primary-paragraph fontsize1 o_default_snippet_text">office: +91 452-2372226</p>
+                    <p class="primary-paragraph fontsize1 o_default_snippet_text">Factory: +91 452-2485621</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_website_form centered-content space-between-contents o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Collaborate form">
+          <div class="container collaborate-form">
+            <div class="row align-items-center">
+              <div class="col-md-4 form-c1 o_colored_level">
+                <h1 class="fontsize2 primary-heading o_default_snippet_text">Send us Your Message<br/></h1>
+                <p class="fontsize1 primary-paragraph pt32 o_default_snippet_text">Be it enquiries, feedback or order requirements. write to us and we will get back you instantly.<br/></p>
+              </div>
+              <div class="col-md-8 form-c2 o_colored_level">
+                <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
+                  <div class="s_website_form_rows row s_col_no_bgcolor">
+                    <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="char" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="form-c2-fill col-sm">
+                          <input type="text" class="form-control s_website_form_input bg-200" name="Your Name" placeholder="Your Name" required="1" id="5zl5pu1zulv"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group s_website_form_field col-12  s_website_form_model_required  " data-type="email" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="form-c2-fill col-sm">
+                          <input type="email" class="form-control s_website_form_input bg-200" placeholder="Your E-mail Address" name="email_from" required="true" id="vkav4r3hsfp"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="text" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-sm form-c2-fill">
+                          <textarea class="form-control s_website_form_input  bg-200" name="Your Question" placeholder="Drop us a messages here..." required="1" id="6rp2idnyd1o" rows="3"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group s_website_form_field col-12    s_website_form_dnone" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px">
+                          <span class="s_website_form_label_content"/>
+                          <span title="Separate email addresses with a comma.">
+                            <i class="fa fa-info-circle"/>
+                          </span>
+                        </label>
+                        <div class="col-sm">
+                          <input type="hidden" class="form-control s_website_form_input" name="email_to" value="info@yourcompany.example.com"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                      <div class="s_website_form_label"/>
+                      <a href="#" role="button" class="primary-button s_website_form_send o_default_snippet_text">Submit</a>
+                      <span id="s_website_form_result"/>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+          </div>
+        </xpath>
+</template>
+</odoo>
