@@ -1,0 +1,295 @@
+<odoo>
+<record id="process" model="ir.ui.view">
+            <field name="name">Process</field>
+            <field name="type">qweb</field>
+            <field name="key">website.process</field>
+            <field name="arch" type="xml">
+                <t name="Process" t-name="website.process">
+                    <t t-call="website.layout">
+                        <div id="wrap">
+                        <div class="oe_structure">
+                              <section class="s_text_image pt16 pb32 o_colored_level process-textimage" data-snippet="s_content_principles" data-name="process page content imagetext">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 o_colored_level process-textimage-col1">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/process-web.jpg">
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/process-web.jpg">
+                    <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/process-mobile.jpg">
+                      <img class="img img-fluid mx-auto" src="/theme_pa/static/src/images/process-web.jpg" alt="Penguin Apparels Building Image" loading="lazy"/>
+                    </source>
+                  </source>
+                </source>
+              </picture>
+            </div>
+            <div class="col-md-5 o_colored_level process-textimage-col2" data-name="Box">
+              <div class="s_nb_column_fixed">
+                <h1>
+                  <font class="primary-heading fontsize2 o_default_snippet_text">Committed to Exceeding our Customers Expectation's <u class="o_default_snippet_text">every time</u></font>
+                </h1>
+                <p class="lead primary-paragraph fontsize1 pt32 o_default_snippet_text">We have established objectives to measure the Quality of our Process and its Performance in order to ensure the continuos improvement of the process and stringent compliance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image o_colored_level space-between-contents pb8" data-snippet="s_image_text" data-name="process page content delievery">
+        <div class="pa-site-width">
+          <div class="row align-items-center">
+            <div class="col-md-7 o_colored_level">
+              <h1 class="primary-heading fontsize9 centered-at-9 o_default_snippet_text">Delivering Excellence</h1>
+            </div>
+            <div class="col-md-5 pt16 pb16 o_colored_level">
+              <p class="primary-paragraph fontsize1 centered-content o_default_snippet_text">They say "Strength of a chain is known by its weakest link". We say "It is applicable to the clothes that we wear also"</p>
+              <p class="primary-paragraph fontsize1 centered-content o_default_snippet_text">We deliver excellence in our products through the fineness of our making process</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_dots space-between-contents o_colored_level o_slideshow gird-view-mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="process page content excellence">
+        <div class="container">
+          <div id="slideshow_1628436950818" class="carousel slide" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
+            <div class="carousel-inner" style="padding: 0;">
+              <div class="carousel-item active" style="">
+                <img class="img img-fluid d-block" src="/theme_pa/static/src/images/cutting.jpg" style="" alt="Cutting Image" data-name="Image" data-index="0" loading="lazy"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block " src="/theme_pa/static/src/images/stretch.jpg" style="" alt="Stretching Image" data-name="Image" data-index="1" loading="lazy"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block " src="/theme_pa/static/src/images/embroidery.jpg" style="" alt="Embroidery Image" data-name="Image" data-index="2" loading="lazy"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block " src="/theme_pa/static/src/images/quilting.jpg" style="" alt="Quilting Image" data-name="Image" data-index="2" loading="lazy"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block " src="/theme_pa/static/src/images/filling.jpg" style="" alt="Filling Image" data-name="Image" data-index="2" loading="lazy"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block " src="/theme_pa/static/src/images/washing.png" style="" alt="Washing Machine Image" data-name="Image" data-index="2" loading="lazy"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block " src="/theme_pa/static/src/images/pressing.png" style="" alt="Pressing Machine Image" data-name="Image" data-index="2" loading="lazy"/>
+              </div>
+            </div>
+            <ul class="carousel-indicators">
+              <li data-target="#slideshow_1628436950818" data-slide-to="0" class="active"/>
+              <li data-target="#slideshow_1628436950818" data-slide-to="1"/>
+              <li data-target="#slideshow_1628436950818" data-slide-to="2"/>
+              <li data-target="#slideshow_1628436950818" data-slide-to="3"/>
+              <li data-target="#slideshow_1628436950818" data-slide-to="4"/>
+              <li data-target="#slideshow_1628436950818" data-slide-to="5"/>
+              <li data-target="#slideshow_1628436950818" data-slide-to="6"/>
+            </ul>
+            <a class="carousel-control-prev o_we_no_overlay" href="#slideshow_1628436950818" data-slide="prev" aria-label="Previous" title="Previous">
+              <span class="fa fa-chevron-left fa-2x text-white"/>
+              <span class="sr-only o_default_snippet_text">Previous</span>
+            </a>
+            <a class="carousel-control-next o_we_no_overlay" href="#slideshow_1628436950818" data-slide="next" aria-label="Next" title="Next">
+              <span class="fa fa-chevron-right fa-2x text-white" data-original-title="" title="" aria-describedby="tooltip794024"/>
+              <span class="sr-only o_default_snippet_text">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="s_masonry_block o_colored_level gird-view-web space-between-contents" data-vcss="001" data-snippet="s_masonry_block" data-name="process page content excellence">
+        <div class="process-gird-view">
+          <div class="row">
+            <div class="col-md-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/cutting.jpg" alt="cutting Image" loading="lazy"/>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Cutting</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">We use Computerized Pattern Making Systems and Automatic Cutting Machines from lectra and Builmer to achieve the highest level of perfection</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Sewing</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Our best in class sewing machinery from Dueurkopp Adier and juki provide sophistation to our make</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/stretch.jpg" alt="stretching image" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/embroidery.jpg" alt="cutting Image" loading="lazy"/>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Embroidery</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">We are equipped with Barudan computerized embroidery machines to add brand value to our products. We can handle upto 9 colours of embroidered designs</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Quilting</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Automated template profiles from juki enable us to embellish products with clean, design quilts to hold insulation and provide great Quality</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/quilting.jpg" alt="Quilting Image" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/filling.jpg" alt="Filling Image" loading="lazy"/>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Filling</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">our computerized down filling machines provide accurate fills in each quilt, providing an even finish to insulated garments</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Washing</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Intricately manufactured garments are washed using Tonello Washing machines for excellent handle and varied wash down looks</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/washing.png" alt="Washing Image" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 o_colored_level">
+              <div class="row h-100">
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/pressing.png" alt="Pressing Image" loading="lazy"/>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Pressing and Form</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">We add body and style to our products with the use of our form finishing equipment from veit and macpi</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <h3 class="o_default_snippet_text primary-heading fontsize2">Stretching</h3>
+                  <p class="o_default_snippet_text primary-paragraph fontsize1">Our best in class sewing machinery from Dueurkopp Adier and juki provide sophistation to our make</p>
+                </div>
+                <div class="col-md-6 pt24 pb8 text-center o_colored_level" data-name="Block">
+                  <img src="/theme_pa/static/src/images/stretch.jpg" alt="Stretching Image" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_image space-between-contents o_colored_level" data-snippet="s_processpage_certificates" data-name="process page certificate">
+        <div class="container">
+          <div class="row align-items-center certificates">
+            <div class="col-md-4 o_colored_level">
+              <div class="primary-heading fontsize6 o_default_snippet_text">Certification</div>
+              <div>
+                <a class="fontsize6 text-black o_default_snippet_text" id="leftarrow">←</a>
+                <a class="fontsize6 text-black o_default_snippet_text" id="rightarrow">→</a>
+              </div>
+            </div>
+            <div id="right" class="col-md-8 o_colored_level" data-name="Box">
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate1.jpg" alt="FAIR TRADE - USA Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">FAIR TRADE - USA</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate2.jpg" alt="SA 8000 : 2000 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">SA 8000 : 2000</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate3.jpg" alt="GOTS CERTIFIED Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">GOTS CERTIFIED</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate4.jpg" alt="OHSAS 18001:2007 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">OHSAS 18001:2007</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate5.jpg" alt="OCS version 1.0 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">OCS version 1.0</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate6.jpg" alt="ISO 9001:2008 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">ISO 9001:2008</p>
+              </div>
+              <div class="col">
+                <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate7.jpg" alt="ISO 14001:2004 Certificate" loading="lazy"/>
+                <p class="o_default_snippet_text">ISO 14001:2004</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_references space-between-contents o_colored_level" data-snippet="s_references" data-name="process page content partners">
+        <div class="container">
+          <h2 class="o_default_snippet_text pb24 primary-heading fontsize9 partners-head" style="text-align: center;">We are Trusted Partners For the Popular Brands</h2>
+          <div class="row partners-png">
+            <div class="o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner1.png" class="img img-fluid mx-auto partner-logo" alt="Vineyard Vines Logo" loading="lazy"/>
+            </div>
+            <div class="t16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner2.png" class="img img-fluid mx-auto partner-logo" alt="Ralph Lauren Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner3.png" class="img img-fluid mx-auto partner-logo" alt="degre7 logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner4.png" class="img img-fluid mx-auto partner-logo" alt="Faherty Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner5.png" class="img img-fluid mx-auto partner-logo" alt="Dover Saddlery" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner6.png" class="img img-fluid mx-auto partner-logo" alt="Aigle Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner7.png" class="img img-fluid mx-auto partner-logo" alt="Sportif Usa Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner8.png" class="img img-fluid mx-auto partner-logo" alt=" ORVIS logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner9.png" class="img img-fluid mx-auto partner-logo" alt="HD Duvvilard Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner10.png" class="img img-fluid mx-auto partner-logo" alt="Boss Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner11.png" class="img img-fluid mx-auto partner-logo" alt="Karl Karl Lagereeld" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner12.png" class="img img-fluid mx-auto partner-logo" alt="Mec logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner13.png" class="img img-fluid mx-auto partner-logo" alt="Villervala Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner14.png" class="img img-fluid mx-auto partner-logo" alt="Petit Bateaul" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner15.png" class="img img-fluid mx-auto partner-logo" alt="Tentree logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner16.png" class="img img-fluid mx-auto partner-logo" alt="Timberland Logo" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+      </section>
+                        </div>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+        <record id="process_page" model="website.page">
+        <field name="name">Process</field>
+            <field name="url">/process</field>
+            <field name="is_published">True</field>
+            <field name="view_id" ref="process"/>
+            <field name="cache_key_expr">('cached' if not request.params else None,)</field>
+            <field name="track">True</field>
+        </record>
+        <record id="menu_process" model="website.menu">
+            <field name="name">Process</field>
+            <field name="url">/process</field>
+            <field name="page_id" ref="process_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">59</field>
+        </record>
+
+</odoo>
