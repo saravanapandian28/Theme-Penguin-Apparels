@@ -1,0 +1,52 @@
+//text-image for about us page
+.aboutus-page-c-one{
+    &-text1{
+    left: 15%;
+    z-index: 3;
+}
+&-text2{
+    right:15%;
+    z-index: 4;
+}
+    &-img{
+        height: 700px;
+        width: 700px;
+        object-fit: cover;
+        overflow: hidden;
+        &-part{
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+.text-inside-content{
+    padding: 70px 50px;
+}
+
+@media(max-width:770px){
+    .aboutus-page-c-one{
+        &-text1{
+        left: 0;
+    }
+    &-text2{
+        right: 0;
+    }
+    &-part-1{
+        background-image: url('/theme_pa/static/src/images/PenguinApparel-Building-Mobile-View.jpg');
+        background-size: cover;
+        padding: 40px;
+    }
+    &-part-2{
+        background-image: url('/theme_pa/static/src/images/Penguin-Workers-Mobile-View.jpg');
+        background-size: cover;
+        padding: 40px;
+    }
+        &-img-part{
+            display: none;
+        }
+    }
+    .text-inside-content{
+        text-align: center;
+        padding: 15px 15px;
+    }
+}
