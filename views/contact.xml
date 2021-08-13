@@ -71,7 +71,7 @@
           </div>
         </section>
         <section class="s_website_form centered-content space-between-contents o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Collaborate form">
-          <div class="container collaborate-form">
+          <div class="pa-site-width collaborate-form">
             <div class="row align-items-center">
               <div class="col-md-4 form-c1 o_colored_level">
                 <h1 class="fontsize2 primary-heading o_default_snippet_text">Send us Your Message<br/></h1>
