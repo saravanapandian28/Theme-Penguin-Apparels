@@ -219,17 +219,26 @@
         <div class="container">
           <h2 class="o_default_snippet_text pb24 primary-heading fontsize9 partners-head" style="text-align: center;">We are Trusted Partners For the Popular Brands</h2>
           <div class="row partners-png">
-            <div class="o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner1.png" class="img img-fluid mx-auto partner-logo" alt="Vineyard Vines Logo" loading="lazy"/>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner12.png" class="img img-fluid mx-auto partner-logo" alt="Mec logo" loading="lazy"/>
             </div>
-            <div class="t16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner2.png" class="img img-fluid mx-auto partner-logo" alt="Ralph Lauren Logo" loading="lazy"/>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner11.png" class="img img-fluid mx-auto partner-logo" alt="Karl Lagereeld" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner3.png" class="img img-fluid mx-auto partner-logo" alt="degre7 logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner4.png" class="img img-fluid mx-auto partner-logo" alt="Faherty Logo" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner14.png" class="img img-fluid mx-auto partner-logo" alt="Petit Bateaul" loading="lazy"/>
+            </div>
+            <div class="o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner1.png" class="img img-fluid mx-auto partner-logo" alt="Vineyard Vines Logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner15.png" class="img img-fluid mx-auto partner-logo" alt="Tentree logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner7.png" class="img img-fluid mx-auto partner-logo" alt="Sportif Usa Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner5.png" class="img img-fluid mx-auto partner-logo" alt="Dover Saddlery" loading="lazy"/>
@@ -238,43 +247,76 @@
               <img src="/theme_pa/static/src/images/logos/partner6.png" class="img img-fluid mx-auto partner-logo" alt="Aigle Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner7.png" class="img img-fluid mx-auto partner-logo" alt="Sportif Usa Logo" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner8.png" class="img img-fluid mx-auto partner-logo" alt=" ORVIS logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner8.png" class="img img-fluid mx-auto partner-logo" alt=" ORVIS logo" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner4.png" class="img img-fluid mx-auto partner-logo" alt="Faherty Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner9.png" class="img img-fluid mx-auto partner-logo" alt="HD Duvvilard Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner10.png" class="img img-fluid mx-auto partner-logo" alt="Boss Logo" loading="lazy"/>
-            </div>
-            <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner11.png" class="img img-fluid mx-auto partner-logo" alt="Karl Karl Lagereeld" loading="lazy"/>
-            </div>
-            <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner12.png" class="img img-fluid mx-auto partner-logo" alt="Mec logo" loading="lazy"/>
-            </div>
-            <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner13.png" class="img img-fluid mx-auto partner-logo" alt="Villervala Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner14.png" class="img img-fluid mx-auto partner-logo" alt="Petit Bateaul" loading="lazy"/>
-            </div>
-            <div class="pt16 pb16 o_colored_level">
-              <img src="/theme_pa/static/src/images/logos/partner15.png" class="img img-fluid mx-auto partner-logo" alt="Tentree logo" loading="lazy"/>
+              <img src="/theme_pa/static/src/images/logos/partner10.png" class="img img-fluid mx-auto partner-logo" alt="Boss Logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner16.png" class="img img-fluid mx-auto partner-logo" alt="Timberland Logo" loading="lazy"/>
             </div>
+            <div class="t16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partner2.png" class="img img-fluid mx-auto partner-logo" alt="Ralph Lauren Logo" loading="lazy"/>
+            </div>
           </div>
         </div>
       </section>
+       <section class="s_website_form centered-content space-between-contents o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Collaborate form">
+          <div class="pa-site-width collaborate-form">
+            <div class="row align-items-center">
+              <div class="col-md-4 form-c1 o_colored_level">
+                <h1 class="fontsize2 primary-heading">Wish to Collaborate with us?<br/></h1>
+                <p class="fontsize1 primary-paragraph pt32">Lets get talking and vissions comes true, write to us now<br/></p>
+              </div>
+              <div class="col-md-8 form-c2 o_colored_level">
+                <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
+                  <div class="s_website_form_rows row s_col_no_bgcolor">
+                    <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="char" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="form-c2-fill col-sm">
+                          <input type="text" class="form-control s_website_form_input bg-200" name="Your Name" placeholder="Your Name" required="1" id="5zl5pu1zulv"/>
                         </div>
+                      </div>
+                    </div>
+                    <div class="form-group s_website_form_field col-12  s_website_form_model_required  " data-type="email" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="form-c2-fill col-sm">
+                          <input type="email" class="form-control s_website_form_input bg-200" placeholder="Your E-mail Address" name="email_from" required="true" id="vkav4r3hsfp"/>
                         </div>
-                    </t>
-                </t>
-            </field>
+                      </div>
+                    </div>
+                    <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="text" data-name="Field">
+                      <div class="row s_col_no_resize s_col_no_bgcolor">
+                        <div class="col-sm form-c2-fill">
+                          <textarea class="form-control s_website_form_input  bg-200" name="Your Question" placeholder="Drop us a messages here..." required="1" id="6rp2idnyd1o" rows="3"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                      <div class="s_website_form_label"/>
+                      <a href="#" role="button" class="primary-button s_website_form_send o_default_snippet_text">Submit</a>
+                      <span id="s_website_form_result"/>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </t>
+</t>
+</field>
         </record>
         <record id="process_page" model="website.page">
         <field name="name">Process</field>
@@ -289,7 +331,8 @@
             <field name="url">/process</field>
             <field name="page_id" ref="process_page"/>
             <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence" type="int">59</field>
+            <field name="sequence" type="int">57</field>
+
         </record>
 
 </odoo>
