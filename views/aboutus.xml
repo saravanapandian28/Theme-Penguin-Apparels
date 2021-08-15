@@ -112,7 +112,7 @@
                 <h1 class="fontsize2 primary-heading">Wish to Collaborate with us?<br/></h1>
                 <p class="fontsize1 primary-paragraph pt32">Lets get talking and vissions comes true, write to us now<br/></p>
               </div>
-              <div class="col-md-8 form-c2 o_colored_level">
+              <div class="col-md-8 form-c2 o_colored_level  p-5">
                 <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
                   <div class="s_website_form_rows row s_col_no_bgcolor">
                     <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="char" data-name="Field">
