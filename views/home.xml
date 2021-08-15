@@ -47,8 +47,8 @@
         </div>
       </section>
       <section class="s_features o_colored_level space-between-contents" data-snippet="s_content_products" data-name="homepage products">
-        <div class="pa-site-width">
-          <div class="row">
+        <div class="pa-site-width pt64">
+          <div class="row pb32">
             <div class="col-md-9 pb16 o_colored_level">
               <h3 class="primary-heading o_default_snippet_text fontsize2 centered-content">Products That We Offers</h3>
               <p class="primary-paragraph o_default_snippet_text fontsize1 centered-content">It is With High Skill and almost attention to detail, we deliver a wide variety of Products in every segment we cater to. We are trusted by some of the biggest Brands in the apparel world</p>
@@ -377,22 +377,22 @@
           <div class="row">
             <div class="col-md-4 pt32 pb32 text-center o_colored_level">
               <p class="primary-paragraph fontsize1 o_default_snippet_text">GREEN BUILDING GOLD RATING by</p>
-              <h3 class="primary-heading fontsize4 o_default_snippet_text"> LEED AND IGBC</h3>
+              <h3 class="primary-heading fontsiz01 o_default_snippet_text"> LEED AND IGBC</h3>
             </div>
             <div class="col-md-4 pt32 pb32 text-center o_colored_level">
               <p class="primary-paragraph fontsize1 o_default_snippet_text">WATER HARVEST WITH</p>
-              <h3 class="primary-heading fontsize4 o_default_snippet_text">RWH <span class="primary-paragraph fontsize3 o_default_snippet_text">system</span></h3>
+              <h3 class="primary-heading fontsize01 o_default_snippet_text">RWH <span class="primary-heading-regular fontsize3 o_default_snippet_text">system</span></h3>
             </div>
             <div class="col-md-4 pt32 pb32 text-center o_colored_level">
               <p class="primary-paragraph fontsize1 o_default_snippet_text">ENERGY CONVERSION</p>
-              <h3 class="primary-heading fontsize4 o_default_snippet_text">SOLAR-PV <span class="primary-paragraph fontsize3 o_default_snippet_text">system</span></h3>
+              <h3 class="primary-heading fontsize01 o_default_snippet_text">SOLAR-PV <span class="primary-heading-regular fontsize3 o_default_snippet_text">system</span></h3>
             </div>
           </div>
         </div>
       </section>
       <section class="centered-content pt32 s_call_to_action o_cc o_colored_level" data-snippet="s_homepage_foot_banner" data-name="foot banner">
         <div class="pa-site-width">
-          <div class="row pb16">
+          <div class="row pb32">
             <div class="col-md-9 pb16 o_colored_level">
               <h3 class="primary-heading fontsize2 centered-content o_default_snippet_text">We ship to 26+ Countries as We are talking</h3>
             </div>
