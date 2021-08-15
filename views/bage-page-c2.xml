@@ -1,0 +1,16 @@
+<template id="s_badge_page_content4" name="badge page content4">
+ <section class="s_website_form space-between-contents o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="aboutus page form">
+        <div class="justify-content-center">
+              <h1 class="primary-heading fontsize6 text-center pb32 o_default_snippet_text">Collaborate With us! and Lets get Working</h1>
+          <p class="text-center">
+            <a href="/contactus" class="primary-button o_default_snippet_text">REACH US</a>
+          </p>
+            </div>
+      </section>
+</template>
+
+<template id="place_into_page_content4" inherit_id="website.snippets" name="Place into page content4">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_badge_page_content4" t-thumbnail="/theme_pa/static/src/images/logos/protection.png"/>
+    </xpath>
+</template>

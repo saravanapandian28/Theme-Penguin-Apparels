@@ -1,0 +1,46 @@
+<template id="s_badge_page_last_content" name="badge page last content">
+ <section class="s_three_columns space-between-contents o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="badge page last content">
+        <div class="container">
+          <div class="col-md-6 pt16 pb16 o_colored_level">
+            <h2 class="o_default_snippet_text primary-heading fontsize2">Going The Extramile</h2>
+            <p class="o_default_snippet_text primary-paragraph fontsize1">TO MAKE A SOCIETY A BETTER PLACE</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class=" row d-flex align-items-stretch">
+            <div class="col-4 pt16 pb16 o_colored_level">
+              <div class="card bg-white h-100">
+                <img class="card-img-top" src="/theme_pa/static/src/images/medical-camp.jpg" alt="Medical camps image" loading="lazy"/>
+                <div class="card-body">
+                  <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Medical Camp</h3>
+                  <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Every year, we organize free medical camps eagerly participated by our employees and locals. we also encourage and recruit eligible people from the nearby villages thus providing employment opportunities. We also take freshers and train them to work in the Apparels industry</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card bg-white h-100">
+                <img class="card-img-top" src="/theme_pa/static/src/images/green-initiatives.jpg" alt="Green Initiatives image" loading="lazy"/>
+                <div class="card-body">
+                  <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Green Initiatives</h3>
+                  <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Corban emission from factory are neutralized in the best possible way. Starting from using the most eco-friendly machines to having our own effort. treatment plan and solar lights. penguin apparels strives to be eco-friendly in all possible ways. many visiting customers have appreciated our green garden as much as they appreciate our garments</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card bg-white h-100">
+                <img class="card-img-top" src="/theme_pa/static/src/images/Energy-Managment-Web-View.png" alt="Energy Conversion Image" loading="lazy" height="300px"/>
+                <div class="card-body">
+                  <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
+                  <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Solar panels installed at our factories properly use of non-conventional energy. Best practices undertaken to save electricity and utilize National resources in an efficient way of manner in Penguin apparels</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </template>
+      <template id="place_into_page_content5" inherit_id="website.snippets" name="Place into page content5">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_badge_page_last_content" t-thumbnail="/theme_pa/static/src/images/logos/protection.png"/>
+    </xpath>
+</template>

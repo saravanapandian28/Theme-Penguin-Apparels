@@ -1,0 +1,19 @@
+<template id="s_badge_page_content1" name="badge page content1">
+<section class="s_text_image pb32 o_colored_level" data-snippet="s_image_text" data-name="badge page content1">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 pb16 o_colored_level">
+              <h1 class="primary-heading fontsize2 centered-content o_default_snippet_text">Building the career ladder</h1>
+            </div>
+            <div class="col-md-6 pt16 pb16 o_colored_level">
+              <p class="primary-paragraph fontsize1 centered-content o_default_snippet_text">We have a full fledged Human Resources Management function. Which takes care of the training and skill upgrade requirements of our employees. Our training programmers are structures to make our employees aquire the required skills to move up in the organisation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_page_content1" inherit_id="website.snippets" name="Place into page content1">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_badge_page_content1" t-thumbnail="/theme_pa/static/src/images/logos/protection.png"/>
+    </xpath>
+</template>

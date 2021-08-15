@@ -1,0 +1,41 @@
+<template id="s_badge_page_training_list" name="badge page training list">
+ <section class="s_call_to_action o_cc space-between-contents o_colored_level" data-snippet="s_content_quality_list" data-name="badge page training list">
+        <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-7 o_colored_level training-list-c1 blue-layer-image">
+                  <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Employee-Training-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Employee-Training-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Employee-Training-Mobile-View.png">
+                    <img src="/theme_pa/static/src/images/Employee-Training-Web-View.png" alt="Penguin Apparels Employees image"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+            </div>
+            <div class="col-md-5 pt16 pb16 o_colored_level training-list-c2">
+              <ul class="primary-subtitle">
+                <li class="o_default_snippet_text">Induction Training</li>
+                <li class="o_default_snippet_text">On the Job Training</li>
+                <li class="o_default_snippet_text">Quality and Compliance Training</li>
+                <li class="o_default_snippet_text">safety and Security Training</li>
+                <li class="o_default_snippet_text">Process Improvement Training</li>
+                </ul>
+                <h1 class="primary-heading fontsize4 o_default_snippet_text"><u class="o_default_snippet_text">Need Based</u> Training Like</h1>
+                <ul class="primary-subtitle">
+                <li class="o_default_snippet_text">Supervisory skill Training</li>
+                <li class="o_default_snippet_text">Human Empowerment Training</li>
+                <li class="o_default_snippet_text">Team Works and Communication Skills Training</li>
+                <li class="o_default_snippet_text">Customers Code of conduct Training</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+<template id="place_into_page_content2" inherit_id="website.snippets" name="Place into page content2">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_badge_page_training_list" t-thumbnail="/theme_pa/static/src/images/logos/protection.png"/>
+    </xpath>
+</template>
