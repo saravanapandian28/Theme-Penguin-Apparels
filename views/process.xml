@@ -8,7 +8,7 @@
                     <t t-call="website.layout">
                         <div id="wrap">
                         <div class="oe_structure">
-                              <section class="s_text_image pt16 pb32 o_colored_level process-textimage" data-snippet="s_content_principles" data-name="process page content imagetext">
+       <section class="s_text_image pt16 pb32 o_colored_level process-textimage" data-snippet="s_content_principles" data-name="process page content imagetext">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7 o_colored_level process-textimage-col1">
@@ -49,7 +49,7 @@
       <section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_dots space-between-contents o_colored_level o_slideshow gird-view-mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="process page content excellence">
         <div class="container">
           <div id="slideshow_1628436950818" class="carousel slide" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
-            <div class="carousel-inner"  style="padding: 0;">
+            <div class="carousel-inner" style="padding: 0;">
               <div class="carousel-item active" style="">
                 <img class="img img-fluid d-block" src="/theme_pa/static/src/images/cutting.jpg" style="" alt="Cutting Image" data-name="Image" data-index="0" loading="lazy"/>
               </div>
@@ -182,7 +182,7 @@
                 <a class="fontsize6 text-black o_default_snippet_text" id="rightarrow">→</a>
               </div>
             </div>
-            <div id="right"  style="scroll-behavior: smooth;" class="col-md-8 o_colored_level" data-name="Box">
+            <div id="right" style="scroll-behavior: smooth;" class="col-md-8 o_colored_level" data-name="Box">
               <div class="col">
                 <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate1.jpg" alt="FAIR TRADE - USA Certificate" loading="lazy"/>
                 <p class="o_default_snippet_text">FAIR TRADE - USA</p>
@@ -227,6 +227,9 @@
             </div>
             <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner3.png" class="img img-fluid mx-auto partner-logo" alt="degre7 logo" loading="lazy"/>
+            </div>
+            <div class="pt16 pb16 o_colored_level">
+              <img src="/theme_pa/static/src/images/logos/partnereb.png" class="img img-fluid mx-auto partner-logo" alt="ergobaby logo" loading="lazy"/>
             </div>
             <div class="pt16 pb16 o_colored_level">
               <img src="/theme_pa/static/src/images/logos/partner14.png" class="img img-fluid mx-auto partner-logo" alt="Petit Bateaul" loading="lazy"/>
@@ -277,7 +280,7 @@
                 <h1 class="fontsize2 primary-heading">Wish to Collaborate with us?<br/></h1>
                 <p class="fontsize1 primary-paragraph pt32">Lets get talking and vissions comes true, write to us now<br/></p>
               </div>
-              <div class="col-md-8 form-c2 o_colored_level">
+              <div class="col-md-8 form-c2 o_colored_level p-5">
                 <form action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
                   <div class="s_website_form_rows row s_col_no_bgcolor">
                     <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required  " data-type="char" data-name="Field">
