@@ -53,72 +53,124 @@
           </div>
         </div>
       </section>
-      <section class="s_three_columns space-between-contents o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="badge page last content">
-        <div class="container s_we_care">
-          <div class="row">
-            <div class="col-6">
-              <h2 class="o_default_snippet_text primary-heading fontsize2">Going The Extramile</h2>
-              <p class="o_default_snippet_text primary-paragraph fontsize1">TO MAKE A SOCIETY A BETTER PLACE</p>
-            </div>
-            <div class="col-6 text-right">
-              <a class="mb-3 primary-heading mr-1" style="font-size:40px" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+         <section class="s_three_columns space-between-contents o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="badge page last content">
+          <div class="container s_we_care">
+            <div class="row">
+              <div class="col-6 o_colored_level">
+                <h2 class="o_default_snippet_text primary-heading fontsize2">Going The Extramile</h2>
+                <p class="o_default_snippet_text primary-paragraph fontsize1">TO MAKE A SOCIETY A BETTER PLACE</p>
+              </div>
+              <div class="col-6 text-right o_colored_level">
+                <a class="mb-3 primary-heading mr-1 o_default_snippet_text" style="font-size:40px" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                 ←</a>
-              <a class="mb-3 primary-heading text-black" style="font-size:40px" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <a class="mb-3 primary-heading text-black o_default_snippet_text" style="font-size:40px" href="#carouselExampleIndicators2" role="button" data-slide="next">
                 →
               </a>
-            </div>
-            <div class="col-12 pt32">
-              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div id="removehere" class="carousel-item active" style="">
-                    <div class="row">
-                      <div id="addhere" class="col-md-4 mb-3">
-                        <div class="card">
-                          <img class="card-img-top" src="/theme_pa/static/src/images/medical-camp.jpg" alt="" loading="lazy"/>
-                          <div class="card-body">
-                            <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Medical Camp</h3>
-                            <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Every year, we organize free medical camps eagerly participated by our employees and locals. we also encourage and recruit eligible people from the nearby villages thus providing employment opportunities. We also take freshers and train them to work in the Apparels industry</p>
+              </div>
+              <div class="col-12 pt32 process-content-web o_colored_level">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active o_colored_level" style="">
+                      <div class="row">
+                        <div class="col-md-4 mb-3 o_colored_level">
+                          <div class="card">
+                            <img class="card-img-top" src="/theme_n/static/src/images/medical-camp.jpg" alt="" loading="lazy"/>
+                            <div class="card-body">
+                              <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Medical Camp</h3>
+                              <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Every year, we organize free medical camps eagerly participated by our employees and locals. we also encourage and recruit eligible people from the nearby villages thus providing employment opportunities. We also take freshers and train them to work in the Apparels industry</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 o_colored_level">
+                          <div class="card">
+                            <img class="card-img-top" src="/theme_n/static/src/images/green-initiatives.jpg" alt="" loading="lazy"/>
+                            <div class="card-body">
+                              <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Green Initiatives</h3>
+                              <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Corban emission from factory are neutralized in the best possible way. Starting from using the most eco-friendly machines to having our own effort. treatment plan and solar lights. penguin apparels strives to be eco-friendly in all possible ways. many visiting customers have appreciated our green garden as much as they appreciate our garments</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 o_colored_level">
+                          <div class="card">
+                            <img class="card-img-top" src="/theme_n/static/src/images/solar-pannel.jpg" alt="" loading="lazy"/>
+                            <div class="card-body">
+                              <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
+                              <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Solar panels installed at our factories properly use of non-conventional energy. Best practices undertaken to save electricity and utilize National resources in an efficient way of manner in Penguin apparels</p>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div id="addhere" class="col-md-4 mb-3">
-                        <div class="card">
-                          <img class="card-img-top" src="/theme_pa/static/src/images/green-initiatives.jpg" alt="" loading="lazy"/>
-                          <div class="card-body">
-                            <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Green Initiatives</h3>
-                            <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Corban emission from factory are neutralized in the best possible way. Starting from using the most eco-friendly machines to having our own effort. treatment plan and solar lights. penguin apparels strives to be eco-friendly in all possible ways. many visiting customers have appreciated our green garden as much as they appreciate our garments</p>
+                    </div>
+                    <div class="carousel-item o_colored_level" style="">
+                      <div class="row">
+                        <div class="col-md-4 mb-3 o_colored_level">
+                          <div class="card">
+                            <img class="card-img-top" src="/theme_n/static/src/images/energy-building.jpg" alt="" loading="lazy"/>
+                            <div class="card-body">
+                              <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
+                              <p class="card-text o_default_snippet_text primary-paragraph fontsize1">An Effluent Treatment Plant has been installed To separate, reduce and remove the Organic, In-organic, metals from the waste water making the waste water suitable for discharge. To meet the Pollution Control Board discharge standards. The Biologically treated waste water is then used for gardening</p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div id="addhere" class="col-md-4 mb-3">
-                        <div class="card">
-                          <img class="card-img-top" src="/theme_pa/static/src/images/solar-pannel.jpg" alt="" loading="lazy"/>
-                          <div class="card-body">
-                            <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
-                            <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Solar panels installed at our factories properly use of non-conventional energy. Best practices undertaken to save electricity and utilize National resources in an efficient way of manner in Penguin apparels</p>
+                        <div class="col-md-4 mb-3 o_colored_level">
+                          <div class="card">
+                            <img class="card-img-top" src="/theme_n/static/src/images/employee-welfare.jpg" alt="" loading="lazy"/>
+                            <div class="card-body">
+                              <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Employee Welfare</h3>
+                              <p class="card-text o_default_snippet_text primary-paragraph fontsize1">People make the factory and not just the machines. It is our people who have made it possible for us to achieve  sustain global manufacturing standards. They are the ones who make our customers like us. In turn, we give them a healthy work environment, fair and equal treatment. At Penguin Apparels, training is an ongoing activity and every employee strives to achieve more by getting trained in new skills and polishing existing skills</p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div id="removehere" class="carousel-item" style="">
-                    <div class="row">
-                      <div id="addhere" class="col-md-4 mb-3">
-                        <div class="card">
-                          <img class="card-img-top" src="/theme_pa/static/src/images/energy-building.jpg" alt="" loading="lazy"/>
-                          <div class="card-body">
-                            <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
-                            <p class="card-text o_default_snippet_text primary-paragraph fontsize1">An Effluent Treatment Plant has been installed To separate, reduce and remove the Organic, In-organic, metals from the waste water making the waste water suitable for discharge. To meet the Pollution Control Board discharge standards. The Biologically treated waste water is then used for gardening</p>
-                          </div>
+                </div>
+              </div>
+              <div class="col-12 pt32 process-content-mobile o_colored_level">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="col-md-4 mb-3 carousel-item active o_colored_level" style="">
+                      <div class="card">
+                        <img class="card-img-top" src="/theme_n/static/src/images/medical-camp.jpg" alt="" loading="lazy"/>
+                        <div class="card-body">
+                          <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Medical Camp</h3>
+                          <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Every year, we organize free medical camps eagerly participated by our employees and locals. we also encourage and recruit eligible people from the nearby villages thus providing employment opportunities. We also take freshers and train them to work in the Apparels industry</p>
                         </div>
                       </div>
-                      <div id="addhere" class="col-md-4 mb-3">
-                        <div class="card">
-                          <img class="card-img-top" src="/theme_pa/static/src/images/employee-welfare.jpg" alt="" loading="lazy"/>
-                          <div class="card-body">
-                         <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Employee Welfare</h3>
+                    </div>
+                    <div class="col-md-4 mb-3 carousel-item o_colored_level" style="">
+                      <div class="card">
+                        <img class="card-img-top" src="/theme_n/static/src/images/green-initiatives.jpg" alt="" loading="lazy"/>
+                        <div class="card-body">
+                          <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Green Initiatives</h3>
+                          <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Corban emission from factory are neutralized in the best possible way. Starting from using the most eco-friendly machines to having our own effort. treatment plan and solar lights. penguin apparels strives to be eco-friendly in all possible ways. many visiting customers have appreciated our green garden as much as they appreciate our garments</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 carousel-item o_colored_level" style="">
+                      <div class="card">
+                        <img class="card-img-top" src="/theme_n/static/src/images/solar-pannel.jpg" alt="" loading="lazy"/>
+                        <div class="card-body">
+                          <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
+                          <p class="card-text o_default_snippet_text primary-paragraph fontsize1">Solar panels installed at our factories properly use of non-conventional energy. Best practices undertaken to save electricity and utilize National resources in an efficient way of manner in Penguin apparels</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 carousel-item o_colored_level" style="">
+                      <div class="card">
+                        <img class="card-img-top" src="/theme_n/static/src/images/energy-building.jpg" alt="" loading="lazy"/>
+                        <div class="card-body">
+                          <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Energy Conversion</h3>
+                          <p class="card-text o_default_snippet_text primary-paragraph fontsize1">An Effluent Treatment Plant has been installed To separate, reduce and remove the Organic, In-organic, metals from the waste water making the waste water suitable for discharge. To meet the Pollution Control Board discharge standards. The Biologically treated waste water is then used for gardening</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 carousel-item o_colored_level" style="">
+                      <div class="card">
+                        <img class="card-img-top" src="/theme_n/static/src/images/employee-welfare.jpg" alt="" loading="lazy"/>
+                        <div class="card-body">
+                          <h3 class="card-title o_default_snippet_text primary-heading fontsize2">Employee Welfare</h3>
                           <p class="card-text o_default_snippet_text primary-paragraph fontsize1">People make the factory and not just the machines. It is our people who have made it possible for us to achieve  sustain global manufacturing standards. They are the ones who make our customers like us. In turn, we give them a healthy work environment, fair and equal treatment. At Penguin Apparels, training is an ongoing activity and every employee strives to achieve more by getting trained in new skills and polishing existing skills</p>
-                           </div>
                         </div>
                       </div>
                     </div>
@@ -127,8 +179,7 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       <section class="s_website_form space-between-contents o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="badge page content4">
         <div class="justify-content-center">
           <h1 class="primary-heading fontsize6 text-center pb32 o_default_snippet_text">Collaborate With us! and Lets get Working</h1>
