@@ -49,7 +49,7 @@
       <section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_dots space-between-contents o_colored_level o_slideshow gird-view-mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="process page content excellence">
         <div class="container">
           <div id="slideshow_1628436950818" class="carousel slide" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
-            <div class="carousel-inner" style="padding: 0;">
+            <div class="carousel-inner"  style="padding: 0;">
               <div class="carousel-item active" style="">
                 <img class="img img-fluid d-block" src="/theme_pa/static/src/images/cutting.jpg" style="" alt="Cutting Image" data-name="Image" data-index="0" loading="lazy"/>
               </div>
@@ -182,7 +182,7 @@
                 <a class="fontsize6 text-black o_default_snippet_text" id="rightarrow">→</a>
               </div>
             </div>
-            <div id="right" class="col-md-8 o_colored_level" data-name="Box">
+            <div id="right"  style="scroll-behavior: smooth;" class="col-md-8 o_colored_level" data-name="Box">
               <div class="col">
                 <img class="shadow p-3 mb-5 bg-white rounded" src="/theme_pa/static/src/images/certificate1.jpg" alt="FAIR TRADE - USA Certificate" loading="lazy"/>
                 <p class="o_default_snippet_text">FAIR TRADE - USA</p>
