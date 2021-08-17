@@ -8,8 +8,13 @@
                 <div class="card border h-100">
                   <div class="card-body">
                     <h2 class="primary-heading fontsize4 o_default_snippet_text">Phone</h2>
-                    <p class="primary-paragraph fontsize1 o_default_snippet_text">Office:+91 452-2372377/2372477</p>
-                    <p class="primary-paragraph fontsize1 o_default_snippet_text">Factory:+91 452-2482973/2482793</p>
+                    <p>
+                        <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                            <div  class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                                    "widget": "contact",
+                                    "fields": ["phone", "mobile"]}'/>
+                        </address>
+                        </p>
                   </div>
                 </div>
               </div>
@@ -17,17 +22,25 @@
                 <div class="card border h-100">
                   <div class="card-body">
                     <h2 class="primary-heading fontsize4 o_default_snippet_text">Email</h2>
-                    <p class="primary-paragraph fontsize1 o_default_snippet_text">anbukani@penguin_apparelsapparels.com</p>
-                    <p class="primary-paragraph fontsize1 o_default_snippet_text">manivannan@penguin_apparelsapparels.com</p>
-                  </div>
+                    <p>
+                    <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                        <div class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                                "widget": "contact",
+                                "fields": ["email"]}'/>
+                    </address>
+                    </p>
+                 </div>
                 </div>
               </div>
               <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
                 <div class="card border h-100">
                   <div class="card-body">
                     <h2 class="primary-heading fontsize4 o_default_snippet_text">Fax</h2>
-                    <p class="primary-paragraph fontsize1 o_default_snippet_text">office: +91 452-2372226</p>
-                    <p class="primary-paragraph fontsize1 o_default_snippet_text">Factory: +91 452-2485621</p>
+                    <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                            <div  class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                                    "widget": "contact",
+                                    "fields": ["phone", "mobile"]}'/>
+                      </address>
                   </div>
                 </div>
               </div>

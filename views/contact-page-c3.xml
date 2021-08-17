@@ -1,16 +1,19 @@
 <template id="s_content_contact_address" name="contecnt contact address">
 
-   <section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_content_contact_address" data-name="contecnt contact address">
+    <section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_content_contact_address" data-name="contecnt contact address">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-6 pt16 pb16 o_colored_level">
                 <h2 class="primary-heading fontsize2 o_default_snippet_text">Registered Office</h2>
               </div>
               <div class="col-md-6 pt16 pb16 o_colored_level">
-                <p class="primary-paragraph fontsize1 o_default_snippet_text">No.2, Meenakshi Nagar,
-            G.S.T road, Pasumalai,
-            Madurai - 625004
-            TAMILNADU, INDIA</p>
+                <p>
+                     <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                         <div class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                            "widget": "contact",
+                            "fields": ["address"]}'/>
+                    </address>
+                </p>
               </div>
             </div>
             <div class="row align-items-center">
@@ -18,10 +21,7 @@
                 <h2 class="primary-heading fontsize2 o_default_snippet_text">Factory Address</h2>
               </div>
               <div class="col-md-6 pt16 pb16 o_colored_level">
-                <p class="primary-paragraph fontsize1 o_default_snippet_text">D-53, Industrial Estate, Kappalur,
-            H-12, Industrial Estate, Kappalur,
-            Madurai - 625008
-            TAMILNADU, INDIA</p>
+                <p class="primary-paragraph fontsize1 o_default_snippet_text"></p>
               </div>
             </div>
           </div>
