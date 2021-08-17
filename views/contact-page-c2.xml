@@ -1,0 +1,56 @@
+
+</template>
+<template id="s_content_contact_view" name="content conatact view">
+  <section class="s_three_columns centered-content space-between-contents o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="conatact view">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card border h-100">
+                  <div class="card-body">
+                    <h2 class="primary-heading fontsize4 o_default_snippet_text">Phone</h2>
+                    <p>
+                        <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                            <div  class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                                    "widget": "contact",
+                                    "fields": ["phone", "mobile"]}'/>
+                        </address>
+                        </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card border h-100">
+                  <div class="card-body">
+                    <h2 class="primary-heading fontsize4 o_default_snippet_text">Email</h2>
+                    <p>
+                    <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                        <div class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                                "widget": "contact",
+                                "fields": ["email"]}'/>
+                    </address>
+                    </p>
+                 </div>
+                </div>
+              </div>
+              <div class="col-md-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card border h-100">
+                  <div class="card-body">
+                    <h2 class="primary-heading fontsize4 o_default_snippet_text">Fax</h2>
+                    <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                            <div  class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                                    "widget": "contact",
+                                    "fields": ["phone", "mobile"]}'/>
+                      </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+</template>
+<template id="place_into_contactdetai" inherit_id="website.snippets" name="Place into contactdetail">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_content_contact_view"
+                t-thumbnail="/theme_pa/static/src/images/logos/folded.png"/>
+    </xpath>
+</template>

@@ -1,0 +1,36 @@
+<template id="s_content_contact_address" name="contecnt contact address">
+
+    <section class="centered-content s_call_to_action o_cc pt48 pb24 o_colored_level" data-snippet="s_content_contact_address" data-name="contecnt contact address">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <h2 class="primary-heading fontsize2 o_default_snippet_text">Registered Office</h2>
+              </div>
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <p>
+                     <address itemscope="itemscope" itemtype="http://schema.org/Organization">
+                         <div class="primary-paragraph fontsize1 o_default_snippet_text" t-field="res_company.partner_id" t-options='{
+                            "widget": "contact",
+                            "fields": ["address"]}'/>
+                    </address>
+                </p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <h2 class="primary-heading fontsize2 o_default_snippet_text">Factory Address</h2>
+              </div>
+              <div class="col-md-6 pt16 pb16 o_colored_level">
+                <p class="primary-paragraph fontsize1 o_default_snippet_text"></p>
+              </div>
+            </div>
+          </div>
+        </section>
+</template>
+
+<template id="place_into_contactdetail" inherit_id="website.snippets" name="Place into contactdetails">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_content_contact_address"
+                t-thumbnail="/theme_pa/static/src/images/logos/folded.png"/>
+    </xpath>
+</template>
