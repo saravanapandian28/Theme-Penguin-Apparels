@@ -1,0 +1,167 @@
+//global declarations
+
+
+/* Global Declaratiom */
+.light-font{
+    font-family: @muli-light;
+    color: @base-color;
+}
+.primary-heading{
+    font-family:@base-font-family;
+    color: @base-color;
+    }
+.primary-heading-regular{
+    font-family: @base-regular-font-family;
+    color: @base-color;
+}
+.primary-subtitle{
+    font-family: @base-subtitle-font;
+    color: @base-color;
+}
+.primary-paragraph{
+    font-family: @most-font-family;
+    color: @base-color;
+}
+.primary-bold-paragraph{
+    font-family: @most-font-family-bold;
+    color: @base-color;
+}
+.primary-button{
+    color: @base-color;
+    border: 2px solid @base-color;
+    border-radius: 8px;
+    margin-left: 25px;
+    padding: 9px 22px;
+}
+@media(max-width:770px){
+.primary-button{
+    padding: 20px 75px;
+}
+}
+.logo-size{
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+}
+.fontsize1{
+    font-size: 16px;
+}
+.fontsize2{
+    font-size: 35px;
+}
+.fontsize3{
+    font-size: 23px;
+}
+.fontsize4{
+    font-size: 27px;
+}
+.fontsize01{
+    font-size: 27px;
+}
+.fontsize5{
+    font-size: 14px;
+}
+.fontsize6{
+    font-size: 44px;
+}
+.fontsize7{
+    font-size: 40px;
+}
+.fontsize9{
+    font-size: 55px;
+}
+
+@media(max-width:1080px){
+    .primary-button{
+        margin: 0;
+    }
+    .logo-size{
+        width: 30px;
+        height: 30px;
+    }
+    .fontsize1{
+        font-size: 16px;
+    }
+    .fontsize2{
+        font-size: 28px;
+    }
+    .fontsize3{
+        font-size: 23px;
+    }
+    .fontsize4{
+        font-size: 20px;
+    }
+    .fontsize6{
+        font-size: 44px;
+    }
+    .fontsize9{
+        font-size: 40px;
+    }
+}
+@media(max-width:770px){
+    .logo-size{
+        width: 20px;
+        height: 20px;
+        margin-left: 0;
+    }
+    .fontsize1{
+        font-size: 14px;
+    }
+    .fontsize3{
+        font-size: 23px;
+    }
+    .fontsize4{
+        font-size: 15px;
+    }
+    .fontsize6{
+        font-size: 44px;
+    }
+}
+
+
+///container of pA website
+.pa-site-width{
+    max-width: 950px;
+    margin: auto;
+}
+@media(max-width:1010px){
+    .pa-site-width{
+        max-width: 750px;
+    }
+}
+@media(max-width:770px){
+    .pa-site-width{
+        max-width: 100%;
+
+    }
+}
+//centering the Texts at max width 780px
+@media(max-width:770px){
+    .centered-content{
+        text-align: center;
+    }
+}
+
+
+//making image blue layered
+.blue-layer-image{
+    background-color: @base-color;
+    img{
+        opacity: 0.5;
+    }
+}
+// at mobile view top and bottom padding
+.space-between-contents{
+    padding: 100px 0;
+}
+@media(max-width:770px){
+.space-between-contents{
+    padding: 16px 0;    
+}
+}
+
+@media(max-width:770px){
+    .centered-at-9{
+        text-align: center;    
+    }
+    }
