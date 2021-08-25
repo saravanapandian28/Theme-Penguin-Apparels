@@ -1,0 +1,45 @@
+<odoo>
+<template id="s_homepage_principles" name="content principles">
+<section class="o_colored_level p-0 space-between-contents centered-content vission" data-snippet="s_homepage_principles" data-name="content principles">
+        <div class="pa-site-width">
+          <div class="row align-item-center justify-content-end  vission-block-a">
+            <div class="vission-bg o_colored_level">
+              <div class="bg-200 o_colored_level vission-block-a1">
+                <p class="lead p-5 pb24 pt24 primary-paragraph fontsize1 o_default_snippet_text"><span class="primary-heading fontsize2 o_default_snippet_text">Our Vissions</span><br/><br/>To be the World class Plant Producing Best-quality of ready made garments at optimum cost in an eco-friendly, safe and healthy environment<br/><br/>We will learn our customs enthusiasm by Providing the best customer experience through our performance and continuos improvement driven by integrity, teamwork and innovation</p>
+              </div>
+            </div>
+            <div class="pt16 pb16 o_colored_level vission-block-a2">
+              <picture>
+                <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Stretching-Machine-Tablet-View.jpg">
+                  <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Stretching-Machine-Web-View.png">
+                    <img src="/theme_pa/static/src/images/Stretching-Machine-Web-View.png" class="float-right img img-fluid mx-auto p-0" loading="lazy" data-original-title="" title="" alt="stretching machine image" aria-describedby="tooltip83656" width="90%"/>
+                  </source>
+                </source>
+              </picture>
+            </div>
+          </div>
+          <div class="blue-layer-image vission-block-b">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg">
+                  <source media="(max-width: 768px)" srcset="/theme_pa/static/src/images/Penguin-Workers-Mobile-View.jpg">
+                    <img src="/theme_pa/static/src/images/Penguin-Workers-Web-View.jpg" class="w-100 m-0 p-0" loading="lazy" data-original-title="" title="" alt="Penguin Apparels Workers image" aria-describedby="tooltip83656"/>
+                  </source>
+                </source>
+              </source>
+            </picture>
+            <div class="vission-block-b1 justify-content-center">
+              <h1 class="primary-heading text-white fontsize2 pb32 o_default_snippet_text">Our Guiding Principles</h1>
+              <p class="lead primary-paragraph text-white fontsize1 pb32 o_default_snippet_text">To perform to exceed and to deliver best quality products on time, We strongly believe in pour guiding principles</p>
+              <a href="#" style="border-color:#fff;" class="primary-button text-white o_default_snippet_text">View All</a>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="place_into_hb" inherit_id="website.snippets" name="Place into hb">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_homepage_principles" t-thumbnail="/theme_pa/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+</odoo>

@@ -1,0 +1,18 @@
+ <odoo>
+ <template id="s_homepage_summary" name="Company summary">
+    <section class="s_homepage_summary space-between-contents">
+           <div class="pa-site-width ">
+                <div class="pt8 pb8">
+                    <p class="primary-paragraph centered-content">Since 1990</p>
+                    <h1 class="primary-heading pt16 pb16 centered-content sizeof-content-one">Garmenting Solution For Generation </h1>
+                    <p class="primary-paragraph centered-content">we are One of the leading apparels manufactures in india, producing high quality garments for our customers. We offer a full scale manufacturing solution including a range of services</p>
+                </div>
+           </div>
+    </section>
+</template>
+<template id="place_into_ha" inherit_id="website.snippets" name="Place into ha">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_homepage_summary" t-thumbnail="/theme_pa/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<odoo>

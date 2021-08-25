@@ -1,0 +1,35 @@
+<odoo>
+<template id="s_content_company_ecosystem" name="content Company EcoSystem">
+   <section class="centered-content space-between-contents s_call_to_action o_cc o_colored_level content-ecosystem" data-snippet="s_content_company_ecosystem" data-name="content Company EcoSystem">
+        <div class=" pa-site-width">
+          <div class="col-md-9 pb64 o_colored_level">
+            <h3 class="primary-heading fontsize2 centered-content o_default_snippet_text">We envision better living for the ecosystem!</h3>
+            <p class="primary-paragraph fontsize1 centered-content o_default_snippet_text">We are pioneers in the industry in taking of the well being of our Employee and the well being of the ecological and social environment we operate in.</p>
+          </div>
+          <div class="ecosystem-container">
+            <div class="ecosystem-container1 tog-left">
+              <img src="/theme_pa/static/src/images/Environment-Awarness-Web-View.png" alt="Environment Awareness Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile pt16 o_default_snippet_text">Environment Awareness</div>
+            </div>
+            <div class="ecosystem-container2 tog-left">
+              <img src="/theme_pa/static/src/images/Energy-Managment-Web-View.png" alt="Energy Management Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile pt16 o_default_snippet_text">Energy Management</div>
+            </div>
+            <div class="ecosystem-container3 tog-left">
+              <img src="/theme_pa/static/src/images/Employee-Training-Web-View.png" alt="Employee Training Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile pt16 o_default_snippet_text">Employee Engagement</div>
+            </div>
+            <div class="ecosystem-container4 tog-left">
+              <img src="/theme_pa/static/src/images/Project-Community-Web-View.png" alt="Project Community Image" loading="lazy"/>
+              <div class="primary-heading fontsize3 ecosystem-container-mobile text-center pt16 o_default_snippet_text">Community Projects</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+    <template id="place_into_hi" inherit_id="website.snippets" name="Place into hi">
+    <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_pa.s_content_company_ecosystem" t-thumbnail="/theme_pa/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+</odoo>
