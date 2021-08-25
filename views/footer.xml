@@ -1,0 +1,94 @@
+<odoo>
+<template id="footer_custom" inherit_id="website.layout" name="Default">
+    <xpath expr="//footer" position="replace">
+        <div class="footr">
+        <div class="footer-width">
+		<div class="footer-columns">
+			<div class="first-column">
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a class="footer-top-head" href="#">Penguin Apparels</a></li>
+						<li><a href="/..">Home</a></li>
+						<li><a href="/shop">Products</a></li>
+						<li><a href="#">Why us?</a></li>
+						<li><a href="/process">Process</a></li>
+						<li><a href="#">Clients Shipping</a></li>
+						<li><a href="/contactus">Helps Support</a></li>
+						<li><a href="#">Jobs</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="/aboutus">About Us</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Vision</a></li>
+						<li><a href="/thebadge">Awards</a></li>
+						<li><a href="#">Founders</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="/shop">Products</a></li>
+						<li><a href="#">Gallery</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="/process">Process</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Capability</a></li>
+						<li><a href="#">certification</a></li>
+						<li><a href="#">Clients</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="/thebadge">Beyond Badge</a></li>
+						<li><a href="#">Empowerment</a></li>
+						<li><a href="#">Social activities</a></li>
+						<li><a href="#">Green Initiatives</a></li>
+					</ul>
+				</div>
+				<div class="sub-col">
+					<ul>
+						<li class="foot-head"><a href="/contactus">Contact</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Complaints</a></li>
+						<li><a href="#">Regular Compliance</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms condition</a></li>
+					</ul>
+				</div>		
+			</div>
+			<hr/>
+			<div class="second-column">
+				<ul>
+					<li class="foot-head"><a href="#">Connect</a></li>
+					<li><a href="/website/social/linkedin">Linkedin</a></li>
+					<li><a href="/website/social/mail">Email</a></li>
+					<div class="social-logo">
+					<li><a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                    <i class="fa fa-facebook m-1"/>
+                                </a></li>
+                    <li><a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                    <i class="fa fa-twitter m-1"/>
+                                </a></li>
+                    <li><a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                                    <i class="fa fa-linkedin m-1"/>
+                                </a></li>
+                    <li><a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                                    <i class="fa fa-instagram m-1"/>
+                                </a></li>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<hr/>
+		<div class="copyright">
+			Copyright Reserved by Penguin Apparels - 2020.
+		</div>
+        </div>
+		</div>
+    </xpath>
+</template>   
+</odoo>
